@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://bub5sycnx5k38"]
+
+[ext_resource type="Script" uid="uid://78ae4kj8283k" path="res://scripts/bed.gd" id="1_mmr2t"]
+[ext_resource type="Texture2D" uid="uid://y7p7x5c6pnny" path="res://Assets/Temp sprites/Yume Nikki Bed.png" id="1_plytk"]
+[ext_resource type="PackedScene" uid="uid://bu5gdw4yam8di" path="res://Scenes/interactable.tscn" id="2_8pjge"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_plytk"]
+size = Vector2(37, 60)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8pjge"]
+size = Vector2(44, 66)
+
+[node name="StaticBody2D" type="StaticBody2D" unique_id=1820677552]
+collision_layer = 260
+script = ExtResource("1_mmr2t")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=344393918]
+texture_filter = 1
+position = Vector2(7, 10.5)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_plytk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1183147460]
+position = Vector2(7.5, 11)
+shape = SubResource("RectangleShape2D_plytk")
+
+[node name="interactable" parent="." unique_id=402383156 instance=ExtResource("2_8pjge")]
+interact_name = "Inspect Bed"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="interactable" unique_id=45434665]
+position = Vector2(7, 11)
+shape = SubResource("RectangleShape2D_8pjge")

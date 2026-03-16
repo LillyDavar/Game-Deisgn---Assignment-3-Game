@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c6hox31e3b8f0"
+path="res://.godot/imported/soundreality-door-closing-2-455060.mp3-302522982ee1905e420962ff520df77b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sound Effects/soundreality-door-closing-2-455060.mp3"
+dest_files=["res://.godot/imported/soundreality-door-closing-2-455060.mp3-302522982ee1905e420962ff520df77b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,22 @@
+[background arg="#000000ff" fade="0.0"]
+audio "res://Assets/Audio/freesound_community-human-impact-on-ground-6982.mp3"
+[wait time="1.5"]
+join ??? center
+???: Oh that look's like it was a nasty tumble.
+???: Are you all right their old chap?
+slowly and with much resistance I open my eyes.
+audio music "res://Assets/Audio/Oudn-02.ogg" [fade="0.3" volume="-1.3" loop="true"]
+[background arg="res://Assets/Backgrounds/15c190086d9442d9f05713c8be048d71.jpg" fade="1.0"]
+In my vision I see a woman...or I think there a woman, woman shapped with a...moon for a head.
+join starlight left
+- What?
+	???: Do you not recall? you just fell out of the sky? It was quite a site I'll tell you.
+	???: Oh I'm sorry you must be confused.
+- Who are you?
+	???: Or my pardons, where are my manners?
+starlight: My name is starlight. I am one of the inhabitants of the Grand woods...you actually landed on my front lawn legally speaking...
+starlight: But I promise I won't file any complants with you!
+starlight: I think falling headfirst into the ground from the sky is punishment enough...
+- How did I get here?
+- I must have fainted...
+	starlight: hm? fainted you say? OH that would make sense!

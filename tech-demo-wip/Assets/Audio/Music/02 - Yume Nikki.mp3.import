@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://5t2bvnif0k7b"
+path="res://.godot/imported/02 - Yume Nikki.mp3-e022937acb6bdc29cb6946c790184b89.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Music/02 - Yume Nikki.mp3"
+dest_files=["res://.godot/imported/02 - Yume Nikki.mp3-e022937acb6bdc29cb6946c790184b89.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

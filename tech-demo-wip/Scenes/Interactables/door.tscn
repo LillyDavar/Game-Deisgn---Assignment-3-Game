@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://wbxv2tip552"]
+
+[ext_resource type="Script" uid="uid://bm308ma4pv8op" path="res://scripts/door.gd" id="1_fahql"]
+[ext_resource type="Texture2D" uid="uid://cdefbalmeiqlf" path="res://Assets/Temp sprites/door.png" id="2_ab4ky"]
+[ext_resource type="PackedScene" uid="uid://bu5gdw4yam8di" path="res://Scenes/interactable.tscn" id="3_a43ba"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_burcv"]
+size = Vector2(18, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kj2pw"]
+
+[node name="Door" type="StaticBody2D" unique_id=2112268325]
+collision_layer = 4
+script = ExtResource("1_fahql")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=959695636]
+texture_filter = 1
+texture = ExtResource("2_ab4ky")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1877703084]
+shape = SubResource("RectangleShape2D_burcv")
+
+[node name="interactable" parent="." unique_id=402383156 instance=ExtResource("3_a43ba")]
+interact_name = "Bedroom Door"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="interactable" unique_id=597242879]
+position = Vector2(0, 8)
+shape = SubResource("RectangleShape2D_kj2pw")

@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://y3d5ybskxxay"]
+
+[ext_resource type="Script" uid="uid://cj3fyky0ee12n" path="res://scripts/main_menu.gd" id="1_totuj"]
+
+[node name="MainMenu" type="Node2D" unique_id=535256384]
+script = ExtResource("1_totuj")
+
+[node name="Button_Manager" type="Control" parent="." unique_id=1417227626]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Start" type="Button" parent="Button_Manager" unique_id=596289815]
+layout_mode = 0
+offset_left = 459.0
+offset_top = 284.0
+offset_right = 760.0
+offset_bottom = 383.0
+text = "Start"
+
+[node name="Credits" type="Button" parent="Button_Manager" unique_id=321544845]
+layout_mode = 0
+offset_left = 455.0
+offset_top = 415.0
+offset_right = 758.0
+offset_bottom = 514.0
+text = "Credits
+"
+
+[node name="Quit" type="Button" parent="Button_Manager" unique_id=1011417708]
+layout_mode = 0
+offset_left = 462.0
+offset_top = 546.0
+offset_right = 761.0
+offset_bottom = 645.0
+text = "Quit"
+
+[connection signal="pressed" from="Button_Manager/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Button_Manager/Quit" to="." method="_on_quit_pressed"]

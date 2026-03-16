@@ -1,0 +1,13 @@
+[background arg="#000000ff" fade="0.0"]
+[wait time="1.0"]
+join Main center
+audio "res://Assets/Audio/Sound Effects/soundreality-door-closing-2-455060.mp3"
+[wait time="1.5"]
+audio music "res://Assets/Audio/Music/02 - Yume Nikki.mp3" [volume="-0.7000000000000001" loop="true"]
+Main: Ah finally home! That was such a long day...
+Main: Nice to finally be home.
+Main: I should really make myself some dinner...
+Main: oh! I forgot to make my bed this morning...how could i be so forgetful
+Main: stupid me right!
+Main: ...I am talking to myself again, stupid.
+Main: I should make my bed first before I let myself eat.
