@@ -12,6 +12,7 @@ func _process(delta: float) -> void:
 
 
 func _on_start_pressed() -> void:
+## when Pressed it will start the game
 	get_tree().change_scene_to_file("res://Scenes/Maps/game_screen.tscn")
 
 

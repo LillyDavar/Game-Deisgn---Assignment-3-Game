@@ -8,6 +8,7 @@ var last_direction: Vector2 = Vector2.DOWN
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 
 
+
 func _physics_process(delta: float) -> void:
 	process_movement()
 	process_animation(last_direction)
@@ -23,6 +24,7 @@ func process_movement() -> void:
 		direction.x = 0
 	else:
 		direction = Vector2.ZERO
+
 
 	
 #normalize the directional movement
