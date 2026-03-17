@@ -29,6 +29,7 @@ directories/dch_directory={
 directories/dtl_directory={
 "First convo": "res://Timelines/Conversations/First convo.dtl",
 "Interacts": "res://Timelines/Interactions/Interacts.dtl",
+"Player Name": "res://Timelines/Conversations/Player Name.dtl",
 "door interact": "res://Timelines/Interactions/door interact.dtl",
 "timeline": "res://Timelines/Conversations/timeline.dtl"
 }
@@ -38,7 +39,9 @@ layout/style_directory={
 }
 layout/style_list=["res://Assets/Audio/Sound Effects/New_File.tres"]
 layout/default_style="res://Assets/Audio/Sound Effects/New_File.tres"
-variables={}
+variables={
+"MC": ""
+}
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.025

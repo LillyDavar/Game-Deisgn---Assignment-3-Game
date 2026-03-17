@@ -1,7 +1,8 @@
 extends Area2D
 @export var interact_name: String = ""
 @export var is_interactable: bool = true
-
+# base Interactable code, this will be used a lot in the game so DON'T TOUCH IT ANYONE!
+# This goes for yourself Lilly, DON'T TOUCH IT.
 var interact: Callable = func():
 	pass
 

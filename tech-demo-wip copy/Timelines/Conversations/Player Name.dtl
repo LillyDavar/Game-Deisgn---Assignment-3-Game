@@ -1,0 +1,12 @@
+[background arg="#000000ff" fade="0.0"]
+label Name choice
+What is your Name?
+[text_input text="" var="MC"]
+Is this right?
+- Yes
+	Verywell
+	Sweet dreams...{MC}
+	jump timeline/
+- No
+	I see...
+	jump Name choice

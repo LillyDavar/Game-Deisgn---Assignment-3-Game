@@ -2,10 +2,12 @@ extends CharacterBody2D
 
 
 const SPEED = 150.0
+# speed of player...will have to edit if we add a sprint function , NOTE: Look into sprint function
 
 var last_direction: Vector2 = Vector2.DOWN
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
+# connects the animated sprite to a variable that can be controlled in the code.
 
 
 func _physics_process(delta: float) -> void:
@@ -23,6 +25,7 @@ func process_movement() -> void:
 		direction.x = 0
 	else:
 		direction = Vector2.ZERO
+	# prevents the player from moving when interacting with items and objects.
 	Dialogic.timeline_started.connect(set_physics_process.bind(false))
 	Dialogic.timeline_started.connect(set_process_input.bind(false))
 
@@ -46,6 +49,7 @@ func process_animation(direction) -> void:
 		play_animation("idle", direction)
 
 func play_animation(prefix: String, dir: Vector2) -> void:
+	# fun little code, based on the dirrection it will play the corresponding animation.
 	if dir.x > 0:
 		animated_sprite_2d.play(prefix + "_right")
 	elif dir.x < 0:
