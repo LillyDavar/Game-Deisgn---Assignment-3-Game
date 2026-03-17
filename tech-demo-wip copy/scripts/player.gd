@@ -23,7 +23,11 @@ func process_movement() -> void:
 		direction.x = 0
 	else:
 		direction = Vector2.ZERO
+	Dialogic.timeline_started.connect(set_physics_process.bind(false))
+	Dialogic.timeline_started.connect(set_process_input.bind(false))
 
+	Dialogic.timeline_ended.connect(set_physics_process.bind(true))
+	Dialogic.timeline_ended.connect(set_process_input.bind(true))
 	
 #normalize the directional movement
 	direction = direction.normalized()
