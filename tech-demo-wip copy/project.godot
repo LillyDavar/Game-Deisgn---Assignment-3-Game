@@ -31,6 +31,7 @@ directories/dtl_directory={
 "First convo": "res://Timelines/Conversations/First convo.dtl",
 "Interacts": "res://Timelines/Interactions/Interacts.dtl",
 "Player Name": "res://Timelines/Conversations/Player Name.dtl",
+"Starlight Conversations": "res://Timelines/Conversations/Starlight Conversations.dtl",
 "door interact": "res://Timelines/Interactions/door interact.dtl",
 "timeline": "res://Timelines/Conversations/timeline.dtl"
 }
