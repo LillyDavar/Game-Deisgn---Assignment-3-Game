@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 Dialogic="*uid://ds2q0uclmolvu"
+SceneManager="*uid://k58il6w34oqm"
 
 [dialogic]
 
