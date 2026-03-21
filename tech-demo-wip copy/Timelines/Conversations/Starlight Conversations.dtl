@@ -1,4 +1,4 @@
-if {getRake} == "1":
+if {getRake} == "false":
 	jump rake?
 label rake?
 [background fade="0.0"]

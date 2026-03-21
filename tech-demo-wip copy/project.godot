@@ -46,6 +46,7 @@ layout/style_list=["res://Assets/Audio/Sound Effects/New_File.tres"]
 layout/default_style="res://Assets/Audio/Sound Effects/New_File.tres"
 variables={
 "F_GENDER": "",
+"Gate_Locked": "",
 "MC": "",
 "M_GENDER": "",
 "N_A_GENDER": "",

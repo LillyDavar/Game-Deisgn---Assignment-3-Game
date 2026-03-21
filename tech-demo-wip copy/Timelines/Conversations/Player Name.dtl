@@ -10,8 +10,8 @@ Is this right?
 	set {RED_Name} = "False"
 	set {getRake} = "False"
 	set {StarlightRake} = "False"
+	set {Gate_Locked} = "True "
 	jump timeline/
 - No
 	I see...
 	jump Name choice
-Red: ...that moon headed bastard.

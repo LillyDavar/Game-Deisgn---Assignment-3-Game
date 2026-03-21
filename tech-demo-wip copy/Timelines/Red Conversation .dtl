@@ -5,7 +5,7 @@ if {StarlightRake} == "False":
 	Red?: Oh you're a new face? Who are you wondering these woods?
 	- I'm {MC}
 		Red?: {MC}? That's a name I suppose...
-		set {RED_Name} = true
+		set {RED_Name} = "True"
 		Red: Pleasure to have met. I'm Red. Is there something you needed?
 		- I was trying to get out of the woods...
 			Red: Ah and the gate is locked?
@@ -53,4 +53,18 @@ elif {StarlightRake} == "True":
 			Red: ...Sorry?
 			Red: She stole my rake and is SORRY?
 			Red: ...that moon headed bastard.
-		- Can you open the gate?
+			- Can you open the gate?
+				Red: Hm? Oh yes. Of course I can open the gate for you.
+				Red: ....
+				Red: ........
+				Red: ...There you go! Gate is unlocked.
+				Red: You can come and go as you please.
+				- Thank you
+					if {RED_Name} == "False":
+						You are quite welcome Stranger!
+						Red: I wish you a safe travel.
+						[end_timeline]
+					if {RED_Name} == "True":
+						Red: You are very much welcome {MC}. It's the least I could do for you.
+						Red: I...hope you have a safe travel.
+						[end_timeline]
