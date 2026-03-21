@@ -4,3 +4,23 @@ label rake?
 starlight: Oh. Welcome back my friend. I did not think I would see you again so soon....
 starlight: ....or ever really.
 starlight: What can I help you with?
+if {RAKE} == "1":
+	- So I found this rake...
+		starlight: Oh?
+		starlight: OH! That's Red's rake! I swore I gave that back to her.
+		- It was in a field.
+			starlight: In a field? Oh I must have left it there when I was doing my monthly raking!
+			starlight: Oh that is absolutly horrible of me.
+			starlight: That rake is a family heirloom of Red's you know?
+			starlight: passed down through the family for 30 years
+			starlight: It quite a nice rake. Red lends it to me for my monthly raking
+			starlight: Oh she must have gotten herself all thrown into a knot cause of this...
+			if {getRake} == "1":
+				- Yeah she is really mad.
+					starlight: Oh I feel terrible. TERRIBLE I say.
+					starlight: My friend you have to return it for me! I am affraid she will be quite upset with me. It might be best if she does not see me for a day or two.
+					starlight: I'll apolagize in person than.
+					- I can do that.
+						starlight: You can? Excelant! Thank you so much my friend!
+						starlight: I will not keep you. Many thanks go to you friend.
+- I was talking to red...
