@@ -52,4 +52,6 @@ starlight: The gate might be locked however, one of those eyeless scoundrals tri
 starlight: If it is locked you can talk to Red. They have the key to the gate and can help you.
 - Thank you.
 	starlight: You are most welcome. I wish you the luck in your endevour.
+	set {StarlightRake} = "false"
+	jump Red Conversation /
 	[end_timeline]

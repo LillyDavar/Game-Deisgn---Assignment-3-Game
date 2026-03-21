@@ -48,6 +48,7 @@ variables={
 "MC": "",
 "RAKE": "",
 "RED_Name": "",
+"StarlightRake": "",
 "getRake": ""
 }
 glossary/default_case_sensitive=true

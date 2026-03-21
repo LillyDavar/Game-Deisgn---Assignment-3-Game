@@ -6,6 +6,10 @@ Is this right?
 - Yes
 	Verywell
 	Sweet dreams...{MC}
+	set {RAKE} = "False"
+	set {RED_Name} = "False"
+	set {getRake} = "False"
+	set {StarlightRake} = "False"
 	jump timeline/
 - No
 	I see...

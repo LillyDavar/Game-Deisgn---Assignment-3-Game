@@ -1,6 +1,8 @@
 if {getRake} == "1":
 	jump rake?
 label rake?
+[background fade="0.0"]
+join starlight left
 starlight: Oh. Welcome back my friend. I did not think I would see you again so soon....
 starlight: ....or ever really.
 starlight: What can I help you with?
@@ -23,4 +25,6 @@ if {RAKE} == "1":
 					- I can do that.
 						starlight: You can? Excelant! Thank you so much my friend!
 						starlight: I will not keep you. Many thanks go to you friend.
+						set {StarlightRake} = "true"
+						[end_timeline]
 - I was talking to red...
