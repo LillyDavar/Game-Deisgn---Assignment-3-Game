@@ -34,6 +34,7 @@ directories/dtl_directory={
 "Interacts": "res://Timelines/Interactions/Interacts.dtl",
 "Player Name": "res://Timelines/Conversations/Player Name.dtl",
 "Red Conversation ": "res://Timelines/Red Conversation .dtl",
+"Starlight Conversations": "res://Timelines/Conversations/Starlight Conversations.dtl",
 "door interact": "res://Timelines/Interactions/door interact.dtl",
 "timeline": "res://Timelines/Conversations/timeline.dtl"
 }
@@ -46,7 +47,8 @@ layout/default_style="res://Assets/Audio/Sound Effects/New_File.tres"
 variables={
 "MC": "",
 "RAKE": "",
-"RED_Name": ""
+"RED_Name": "",
+"getRake": ""
 }
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"

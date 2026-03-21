@@ -1,0 +1,6 @@
+if {getRake} == "1":
+	jump rake?
+label rake?
+starlight: Oh. Welcome back my friend. I did not think I would see you again so soon....
+starlight: ....or ever really.
+starlight: What can I help you with?

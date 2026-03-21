@@ -30,3 +30,10 @@ Red?: Oh you're a new face? Who are you wondering these woods?
 label rake help
 Red: .......
 Red: ...hey I think I know how we can help eachother here.
+Red: If I talk to Starlight than one of us is going to murder the other, and I do not want to deal with the fallout of murdering that bastard.
+Red: So how about you go and get my rake back?
+Red: What do you say
+- sure.
+	Red: Perfect!
+	Red: Come back when you have my rake and I'll open the gate for you.
+	set {getRake} = "1"

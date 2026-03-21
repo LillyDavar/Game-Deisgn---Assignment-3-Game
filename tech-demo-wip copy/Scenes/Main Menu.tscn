@@ -12,43 +12,45 @@ script = ExtResource("1_totuj")
 [node name="Button_Manager" type="Control" parent="." unique_id=1417227626]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = 2.0
+offset_top = 100.0
+offset_right = 42.0
+offset_bottom = 140.0
 
 [node name="New Game" type="TextureButton" parent="Button_Manager" unique_id=581779405]
 layout_mode = 0
-offset_left = 477.0
-offset_top = 223.0
-offset_right = 675.0
-offset_bottom = 265.0
+offset_left = 220.0
+offset_top = 139.0
+offset_right = 418.0
+offset_bottom = 181.0
 texture_normal = ExtResource("2_udm2q")
 
 [node name="Continue" type="TextureButton" parent="Button_Manager" unique_id=698580203]
 modulate = Color(0.26293245, 0.26293245, 0.26293245, 0.3254902)
 layout_mode = 0
-offset_left = 477.0
-offset_top = 263.0
-offset_right = 675.0
-offset_bottom = 305.0
+offset_left = 220.0
+offset_top = 179.0
+offset_right = 418.0
+offset_bottom = 221.0
 texture_normal = ExtResource("3_mjet1")
 
 [node name="Settings" type="TextureButton" parent="Button_Manager" unique_id=1959748368]
 modulate = Color(0.26293245, 0.26293245, 0.26293245, 0.3254902)
 layout_mode = 0
-offset_left = 477.0
-offset_top = 303.0
-offset_right = 675.0
-offset_bottom = 345.0
+offset_left = 220.0
+offset_top = 219.0
+offset_right = 418.0
+offset_bottom = 261.0
 texture_normal = ExtResource("4_0126h")
 
 [node name="Credits" type="TextureButton" parent="Button_Manager" unique_id=75845702]
 modulate = Color(0.26293245, 0.26293245, 0.26293245, 0.3254902)
 layout_mode = 0
-offset_left = 477.0
-offset_top = 343.0
-offset_right = 675.0
-offset_bottom = 385.0
+offset_left = 220.0
+offset_top = 259.0
+offset_right = 418.0
+offset_bottom = 301.0
 texture_normal = ExtResource("5_4lp62")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2016952002]
-position = Vector2(576, 327)
+position = Vector2(319, 243)
