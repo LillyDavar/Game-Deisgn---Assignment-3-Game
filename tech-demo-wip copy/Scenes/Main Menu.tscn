@@ -1,6 +1,10 @@
 [gd_scene format=3 uid="uid://y3d5ybskxxay"]
 
 [ext_resource type="Script" uid="uid://cj3fyky0ee12n" path="res://scripts/main_menu.gd" id="1_totuj"]
+[ext_resource type="Texture2D" uid="uid://ilo4jlrlcl7d" path="res://Assets/User Interface/Title Screen/New Game - Selected.png" id="2_udm2q"]
+[ext_resource type="Texture2D" uid="uid://b7178le2xr334" path="res://Assets/User Interface/Title Screen/Continue - Selected.png" id="3_mjet1"]
+[ext_resource type="Texture2D" uid="uid://dwh2kn6qpv0a6" path="res://Assets/User Interface/Title Screen/Settings - Selected.png" id="4_0126h"]
+[ext_resource type="Texture2D" uid="uid://rr1q44kncql5" path="res://Assets/User Interface/Title Screen/Credits - Selected.png" id="5_4lp62"]
 
 [node name="MainMenu" type="Node2D" unique_id=535256384]
 script = ExtResource("1_totuj")
@@ -11,30 +15,40 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Start" type="Button" parent="Button_Manager" unique_id=596289815]
+[node name="New Game" type="TextureButton" parent="Button_Manager" unique_id=581779405]
 layout_mode = 0
-offset_left = 459.0
-offset_top = 284.0
-offset_right = 760.0
-offset_bottom = 383.0
-text = "Start"
+offset_left = 477.0
+offset_top = 223.0
+offset_right = 675.0
+offset_bottom = 265.0
+texture_normal = ExtResource("2_udm2q")
 
-[node name="Credits" type="Button" parent="Button_Manager" unique_id=321544845]
+[node name="Continue" type="TextureButton" parent="Button_Manager" unique_id=698580203]
+modulate = Color(0.26293245, 0.26293245, 0.26293245, 0.3254902)
 layout_mode = 0
-offset_left = 455.0
-offset_top = 415.0
-offset_right = 758.0
-offset_bottom = 514.0
-text = "Credits
-"
+offset_left = 477.0
+offset_top = 263.0
+offset_right = 675.0
+offset_bottom = 305.0
+texture_normal = ExtResource("3_mjet1")
 
-[node name="Quit" type="Button" parent="Button_Manager" unique_id=1011417708]
+[node name="Settings" type="TextureButton" parent="Button_Manager" unique_id=1959748368]
+modulate = Color(0.26293245, 0.26293245, 0.26293245, 0.3254902)
 layout_mode = 0
-offset_left = 462.0
-offset_top = 546.0
-offset_right = 761.0
-offset_bottom = 645.0
-text = "Quit"
+offset_left = 477.0
+offset_top = 303.0
+offset_right = 675.0
+offset_bottom = 345.0
+texture_normal = ExtResource("4_0126h")
 
-[connection signal="pressed" from="Button_Manager/Start" to="." method="_on_start_pressed"]
-[connection signal="pressed" from="Button_Manager/Quit" to="." method="_on_quit_pressed"]
+[node name="Credits" type="TextureButton" parent="Button_Manager" unique_id=75845702]
+modulate = Color(0.26293245, 0.26293245, 0.26293245, 0.3254902)
+layout_mode = 0
+offset_left = 477.0
+offset_top = 343.0
+offset_right = 675.0
+offset_bottom = 385.0
+texture_normal = ExtResource("5_4lp62")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2016952002]
+position = Vector2(576, 327)

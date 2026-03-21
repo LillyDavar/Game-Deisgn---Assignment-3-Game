@@ -26,11 +26,7 @@ func process_movement() -> void:
 	else:
 		direction = Vector2.ZERO
 	# prevents the player from moving when interacting with items and objects.
-	Dialogic.timeline_started.connect(set_physics_process.bind(false))
-	Dialogic.timeline_started.connect(set_process_input.bind(false))
 
-	Dialogic.timeline_ended.connect(set_physics_process.bind(true))
-	Dialogic.timeline_ended.connect(set_process_input.bind(true))
 	
 #normalize the directional movement
 	direction = direction.normalized()
