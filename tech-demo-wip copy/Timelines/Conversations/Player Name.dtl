@@ -4,7 +4,7 @@ What is your Name?
 [text_input text="" var="MC"]
 Is this right?
 - Yes
-	Verywell
+	Very well
 	Sweet dreams...{MC}
 	set {RAKE} = "False"
 	set {RED_Name} = "False"
@@ -14,3 +14,4 @@ Is this right?
 - No
 	I see...
 	jump Name choice
+Red: ...that moon headed bastard.
