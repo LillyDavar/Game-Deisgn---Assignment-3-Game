@@ -1,7 +1,7 @@
 [background arg="#000000ff" fade="0.8"]
 join Red? center
 join Main center
-if {StarlightRake} == "false":
+if {StarlightRake} == "False":
 	Red?: Oh you're a new face? Who are you wondering these woods?
 	- I'm {MC}
 		Red?: {MC}? That's a name I suppose...
@@ -38,3 +38,19 @@ if {StarlightRake} == "false":
 		Red: Perfect!
 		Red: Come back when you have my rake and I'll open the gate for you.
 		set {getRake} = "true"
+elif {StarlightRake} == "True":
+	Red: Ah! You have returned!
+	Red: Did you have to kill her for it???
+	Red: DO you have my family heirloom rake????
+	Red: Did you find my rake?
+	Red: DO you have my family heirloom rake????
+	- no (lie)
+	- Yes I do
+		Red: YOU DO!!!
+		Red: GIVE ME!
+		Red: oh my family heirloom rake, I'll never let you out of my sight again.
+		- Starlight said she was sorry
+			Red: ...Sorry?
+			Red: She stole my rake and is SORRY?
+			Red: ...that moon headed bastard.
+		- Can you open the gate?
