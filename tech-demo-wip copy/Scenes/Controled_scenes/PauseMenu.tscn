@@ -7,6 +7,9 @@
 [ext_resource type="Texture2D" uid="uid://xtdbxkyic5dc" path="res://Assets/User Interface/Pause Menu/Quit Game Option - Unselected.png" id="3_wq7s8"]
 [ext_resource type="Texture2D" uid="uid://bq5ajhodee04w" path="res://Assets/User Interface/Pause Menu/Save Game Option - Unselected.png" id="6_ot4yg"]
 [ext_resource type="Texture2D" uid="uid://bgbsah1ouowec" path="res://Assets/User Interface/Pause Menu/Player Data Frame.png" id="7_eaas8"]
+[ext_resource type="Texture2D" uid="uid://6epx7wvahpl5" path="res://Assets/User Interface/Pause Menu/Playtime Frame.png" id="8_ot4yg"]
+[ext_resource type="PackedScene" uid="uid://bp21ygs7ciqyg" path="res://Scenes/Controled_scenes/on_screen_timer.tscn" id="9_eaas8"]
+[ext_resource type="FontFile" uid="uid://ckogoootmvtu7" path="res://Assets/Fonts/BMSPA___.TTF" id="10_jw4xv"]
 
 [node name="Node2D" type="Node2D" unique_id=1675420561]
 
@@ -14,18 +17,24 @@
 process_mode = 3
 script = ExtResource("2_wq7s8")
 
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=2056819740]
+offset_right = 637.0
+offset_bottom = 479.0
+color = Color(0, 0, 0, 0.60784316)
+metadata/_edit_use_anchors_ = true
+
+[node name="PlaytimeFrame" type="Sprite2D" parent="CanvasLayer" unique_id=2079231087]
+position = Vector2(120, 449)
+texture = ExtResource("8_ot4yg")
+
+[node name="onScreenTimer" parent="CanvasLayer" unique_id=1487595959 instance=ExtResource("9_eaas8")]
+position = Vector2(185, 455)
+
 [node name="SelectablesFrame" type="Sprite2D" parent="CanvasLayer" unique_id=1133074569]
 texture_filter = 1
 position = Vector2(120, 109.75)
 scale = Vector2(1, 1.0209303)
 texture = ExtResource("2_crw3k")
-
-[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=2056819740]
-visible = false
-offset_right = 637.0
-offset_bottom = 479.0
-color = Color(0, 0, 0, 0.60784316)
-metadata/_edit_use_anchors_ = true
 
 [node name="Settings" type="TextureButton" parent="CanvasLayer" unique_id=583009550]
 texture_filter = 1
@@ -66,5 +75,13 @@ texture_normal = ExtResource("6_ot4yg")
 position = Vector2(440, 240)
 scale = Vector2(0.6993007, 0.7692308)
 texture = ExtResource("7_eaas8")
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=800325286]
+offset_left = 12.0
+offset_top = 444.0
+offset_right = 108.0
+offset_bottom = 467.0
+theme_override_fonts/font = ExtResource("10_jw4xv")
+text = "Playtime:"
 
 [connection signal="pressed" from="CanvasLayer/Settings" to="CanvasLayer" method="_on_settings_pressed"]

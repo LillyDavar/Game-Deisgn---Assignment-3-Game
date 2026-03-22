@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bp21ygs7ciqyg"]
+
+[ext_resource type="Script" uid="uid://bu3h8oajum2vk" path="res://scripts/on_screen_timer.gd" id="1_cvi0j"]
+[ext_resource type="FontFile" uid="uid://ckogoootmvtu7" path="res://Assets/Fonts/BMSPA___.TTF" id="2_ekmak"]
+
+[node name="onScreenTimer" type="Node2D" unique_id=1487595959]
+script = ExtResource("1_cvi0j")
+
+[node name="Label" type="Label" parent="." unique_id=1065426444]
+offset_left = -18.0
+offset_top = -11.0
+offset_right = 22.0
+offset_bottom = 12.0
+theme_override_fonts/font = ExtResource("2_ekmak")
+
+[node name="Timer" type="Timer" parent="." unique_id=1275366060]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
