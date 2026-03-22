@@ -1,9 +1,9 @@
 [gd_scene format=4 uid="uid://3t847cminnxi"]
 
-[ext_resource type="Script" uid="uid://brx3xrrerj63h" path="res://scripts/pause.gd" id="1_6ohkb"]
 [ext_resource type="PackedScene" uid="uid://bsgcr7gixw0ry" path="res://Scenes/player.tscn" id="2_a68iv"]
 [ext_resource type="Texture2D" uid="uid://8wbeg2re41n1" path="res://Assets/Temp sprites/Tilesets/PC _ Computer - Yume Nikki - Tilesets - Madotsuki's Balcony_Bedroom.png" id="3_kuxdk"]
 [ext_resource type="PackedScene" uid="uid://bub5sycnx5k38" path="res://Scenes/Interactables/Bed.tscn" id="4_76bm4"]
+[ext_resource type="PackedScene" uid="uid://beywjk3ot7n0o" path="res://Scenes/Controled_scenes/PauseMenu.tscn" id="5_d1juv"]
 [ext_resource type="PackedScene" uid="uid://wbxv2tip552" path="res://Scenes/Interactables/door.tscn" id="5_qg26s"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_76bm4"]
@@ -628,7 +628,6 @@ physics_layer_0/collision_mask = 3
 sources/0 = SubResource("TileSetAtlasSource_76bm4")
 
 [node name="Game screen" type="Node2D" unique_id=941312531]
-script = ExtResource("1_6ohkb")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=2073052254]
 position = Vector2(-371, -66)
@@ -647,3 +646,6 @@ position = Vector2(183, -18)
 
 [node name="Door2" parent="." unique_id=1357203414 instance=ExtResource("5_qg26s")]
 position = Vector2(201, -17)
+
+[node name="Node2D" parent="." unique_id=1675420561 instance=ExtResource("5_d1juv")]
+position = Vector2(1, 0)
