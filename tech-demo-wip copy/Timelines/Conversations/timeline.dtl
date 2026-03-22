@@ -11,3 +11,4 @@ Main: oh! I forgot to make my bed this morning...how could i be so forgetful
 Main: stupid me right!
 Main: ...I am talking to myself again, stupid.
 Main: I should make my bed first before I let myself eat.
+do SceneManager.change_scene("res://Scenes/Maps/game_screen.tscn")

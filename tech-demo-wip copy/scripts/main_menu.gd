@@ -46,7 +46,7 @@ func pressed():
 	var button = getButton()
 	
 	if button.name == "New Game":
-		get_tree().change_scene_to_file("res://Scenes/Maps/game_screen.tscn")
+		get_tree().change_scene_to_file("res://Scenes/Name.tscn") 
 	elif button.name == "Continue":
 		get_tree().change_scene_to_file("res://Scenes/Maps/game_screen.tscn")
 	elif button.Name == "Quit":

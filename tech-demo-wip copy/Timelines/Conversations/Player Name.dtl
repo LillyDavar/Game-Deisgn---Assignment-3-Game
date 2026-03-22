@@ -1,4 +1,5 @@
 [background arg="#000000ff" fade="0.0"]
+do SceneManager.change_scene("res://TAK TAK TAK.tscn")
 label Name choice
 What is your Name?
 [text_input text="" var="MC"]

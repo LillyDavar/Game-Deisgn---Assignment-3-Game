@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbhpmnksxo8dl"
-path="res://.godot/imported/5797D2D4-E901-40D0-A8D5-7AF4F033117B.png-86a5e8c7be1613e9c90d5e08ddae9392.ctex"
+path="res://.godot/imported/heem.png-ab8bb2baf4e9afe7de0cd73e592a84bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Character Sprites/5797D2D4-E901-40D0-A8D5-7AF4F033117B.png"
-dest_files=["res://.godot/imported/5797D2D4-E901-40D0-A8D5-7AF4F033117B.png-86a5e8c7be1613e9c90d5e08ddae9392.ctex"]
+source_file="res://Assets/Sprites/Character Sprites/heem.png"
+dest_files=["res://.godot/imported/heem.png-ab8bb2baf4e9afe7de0cd73e592a84bf.ctex"]
 
 [params]
 

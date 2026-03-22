@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pcbg6n6sxsko"
-path="res://.godot/imported/6143FB61-473D-46E5-ABAF-05585E9D637F.png-ef587154214c1b2bc728b280cfd943cb.ctex"
+path="res://.godot/imported/Thumb_Guy.png-757176b3b800d701230aa02e61eb5410.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Character Sprites/6143FB61-473D-46E5-ABAF-05585E9D637F.png"
-dest_files=["res://.godot/imported/6143FB61-473D-46E5-ABAF-05585E9D637F.png-ef587154214c1b2bc728b280cfd943cb.ctex"]
+source_file="res://Assets/Sprites/Character Sprites/Thumb_Guy.png"
+dest_files=["res://.godot/imported/Thumb_Guy.png-757176b3b800d701230aa02e61eb5410.ctex"]
 
 [params]
 
