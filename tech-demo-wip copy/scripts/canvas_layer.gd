@@ -16,10 +16,14 @@ func _input(event: InputEvent) -> void:
 			visible = true
 			get_tree().paused = true
 
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
 
 
-func _on_settings_pressed() -> void:
+
+
+func _on_quit_pressed() -> void:
+	get_tree().quit()
 	pass # Replace with function body.

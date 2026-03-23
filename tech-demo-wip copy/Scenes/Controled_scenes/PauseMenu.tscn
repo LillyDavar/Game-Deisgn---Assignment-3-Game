@@ -5,13 +5,19 @@
 [ext_resource type="Texture2D" uid="uid://0el2i8lo0i77" path="res://Assets/User Interface/Pause Menu/Selectables Frame.png" id="2_crw3k"]
 [ext_resource type="Script" uid="uid://bbp1ysvv2neyq" path="res://scripts/canvas_layer.gd" id="2_wq7s8"]
 [ext_resource type="Texture2D" uid="uid://xtdbxkyic5dc" path="res://Assets/User Interface/Pause Menu/Quit Game Option - Unselected.png" id="3_wq7s8"]
+[ext_resource type="Texture2D" uid="uid://011qulsh0iwg" path="res://Assets/User Interface/Pause Menu/Inventory_Option_-_Unselected.png" id="5_23xdr"]
+[ext_resource type="Script" uid="uid://bpv2pub8s5yq8" path="res://scripts/v_box_container.gd" id="5_eaw1b"]
 [ext_resource type="Texture2D" uid="uid://bq5ajhodee04w" path="res://Assets/User Interface/Pause Menu/Save Game Option - Unselected.png" id="6_ot4yg"]
+[ext_resource type="Script" uid="uid://cvnffdvgfoul4" path="res://scripts/inventory.gd" id="7_2xir5"]
 [ext_resource type="Texture2D" uid="uid://bgbsah1ouowec" path="res://Assets/User Interface/Pause Menu/Player Data Frame.png" id="7_eaas8"]
+[ext_resource type="Texture2D" uid="uid://cvpca5n2kh2nf" path="res://Assets/User Interface/Pause Menu/Settings Option - Selected.png" id="8_2xir5"]
 [ext_resource type="Texture2D" uid="uid://6epx7wvahpl5" path="res://Assets/User Interface/Pause Menu/Playtime Frame.png" id="8_ot4yg"]
 [ext_resource type="PackedScene" uid="uid://bp21ygs7ciqyg" path="res://Scenes/Controled_scenes/on_screen_timer.tscn" id="9_eaas8"]
+[ext_resource type="Texture2D" uid="uid://dpkv3w28l1r3g" path="res://Assets/User Interface/Pause Menu/Save Game Option - Selected.png" id="10_eaw1b"]
 [ext_resource type="FontFile" uid="uid://ckogoootmvtu7" path="res://Assets/Fonts/BMSPA___.TTF" id="10_jw4xv"]
+[ext_resource type="Texture2D" uid="uid://bypbv85h1h6w1" path="res://Assets/User Interface/Pause Menu/Quit Game Option - Selected.png" id="12_gug34"]
 
-[node name="Node2D" type="Node2D" unique_id=1675420561]
+[node name="Node2D" type="Node2D" unique_id=1150238841]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=517143652]
 process_mode = 3
@@ -36,40 +42,42 @@ position = Vector2(120, 109.75)
 scale = Vector2(1, 1.0209303)
 texture = ExtResource("2_crw3k")
 
-[node name="Settings" type="TextureButton" parent="CanvasLayer" unique_id=583009550]
-texture_filter = 1
-offset_left = 5.0
-offset_top = 132.0
-offset_right = 235.0
-offset_bottom = 175.0
-texture_normal = ExtResource("2_4sm1o")
-metadata/_edit_use_anchors_ = true
-
-[node name="Quit" type="TextureButton" parent="CanvasLayer" unique_id=209617928]
-texture_filter = 1
-anchors_preset = -1
-anchor_right = 0.015625
-offset_left = 5.0
-offset_top = 173.0
-offset_right = 235.0
-offset_bottom = 216.0
-texture_normal = ExtResource("3_wq7s8")
-metadata/_edit_use_anchors_ = true
-
-[node name="Inventory" type="TextureButton" parent="CanvasLayer" unique_id=262047727]
-texture_filter = 1
-offset_left = 5.0
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=333236775]
+offset_left = 6.0
 offset_top = 5.0
-offset_right = 235.0
-offset_bottom = 48.0
-texture_normal = ExtResource("1_ovcnl")
+offset_right = 236.0
+offset_bottom = 213.0
+script = ExtResource("5_eaw1b")
 
-[node name="TextureButton" type="TextureButton" parent="CanvasLayer" unique_id=1215228972]
-offset_left = 5.0
-offset_top = 89.0
-offset_right = 235.0
-offset_bottom = 132.0
+[node name="Inventory" type="TextureButton" parent="CanvasLayer/VBoxContainer" unique_id=262047727]
+texture_filter = 1
+layout_mode = 2
+texture_normal = ExtResource("5_23xdr")
+texture_hover = ExtResource("1_ovcnl")
+texture_focused = ExtResource("1_ovcnl")
+script = ExtResource("7_2xir5")
+
+[node name="Settings" type="TextureButton" parent="CanvasLayer/VBoxContainer" unique_id=583009550]
+texture_filter = 1
+layout_mode = 2
+texture_normal = ExtResource("2_4sm1o")
+texture_hover = ExtResource("8_2xir5")
+texture_focused = ExtResource("8_2xir5")
+metadata/_edit_use_anchors_ = true
+
+[node name="Save" type="TextureButton" parent="CanvasLayer/VBoxContainer" unique_id=1215228972]
+layout_mode = 2
 texture_normal = ExtResource("6_ot4yg")
+texture_hover = ExtResource("10_eaw1b")
+texture_focused = ExtResource("10_eaw1b")
+
+[node name="Quit" type="TextureButton" parent="CanvasLayer/VBoxContainer" unique_id=209617928]
+texture_filter = 1
+layout_mode = 2
+texture_normal = ExtResource("3_wq7s8")
+texture_hover = ExtResource("12_gug34")
+texture_focused = ExtResource("12_gug34")
+metadata/_edit_use_anchors_ = true
 
 [node name="PlayerDataFrame" type="Sprite2D" parent="CanvasLayer" unique_id=1513415719]
 position = Vector2(440, 240)
@@ -84,4 +92,5 @@ offset_bottom = 467.0
 theme_override_fonts/font = ExtResource("10_jw4xv")
 text = "Playtime:"
 
-[connection signal="pressed" from="CanvasLayer/Settings" to="CanvasLayer" method="_on_settings_pressed"]
+[connection signal="pressed" from="CanvasLayer/VBoxContainer/Settings" to="CanvasLayer" method="_on_settings_pressed"]
+[connection signal="pressed" from="CanvasLayer/VBoxContainer/Quit" to="CanvasLayer" method="_on_quit_pressed"]
