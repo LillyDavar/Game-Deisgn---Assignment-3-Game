@@ -9,6 +9,13 @@ var last_direction: Vector2 = Vector2.DOWN
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 # connects the animated sprite to a variable that can be controlled in the code.
 
+func _ready() -> void:
+	Dialogic.timeline_started.connect(set_physics_process.bind(false))
+	Dialogic.timeline_started.connect(set_process_input.bind(false))
+
+	Dialogic.timeline_ended.connect(set_physics_process.bind(true))
+	Dialogic.timeline_ended.connect(set_process_input.bind(true))
+	# code prevents player from walking when they interact with objects
 
 func _physics_process(delta: float) -> void:
 	process_movement()
@@ -54,3 +61,4 @@ func play_animation(prefix: String, dir: Vector2) -> void:
 		animated_sprite_2d.play(prefix + "_up")
 	elif dir.y > 0:
 		animated_sprite_2d.play(prefix + "_down")
+		
