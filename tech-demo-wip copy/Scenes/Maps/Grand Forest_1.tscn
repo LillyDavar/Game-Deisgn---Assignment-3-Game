@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dkp8d7cda07ll" path="res://Assets/Sprites/Tiles/Tile map forest.png" id="1_wnbc8"]
 [ext_resource type="PackedScene" uid="uid://bsgcr7gixw0ry" path="res://Scenes/player.tscn" id="2_gii1w"]
 [ext_resource type="PackedScene" uid="uid://beywjk3ot7n0o" path="res://Scenes/Controled_scenes/PauseMenu.tscn" id="3_c6cya"]
+[ext_resource type="AudioStream" uid="uid://cr4g5ef8wyodh" path="res://Assets/Audio/grassy plataues.mp3" id="4_lssuy"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gii1w"]
 texture = ExtResource("1_wnbc8")
@@ -198,3 +199,9 @@ position = Vector2(226, 98)
 position_smoothing_enabled = true
 
 [node name="Node2D" parent="Player" unique_id=1150238841 instance=ExtResource("3_c6cya")]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=896557459]
+process_mode = 3
+stream = ExtResource("4_lssuy")
+volume_db = -25.394
+autoplay = true
