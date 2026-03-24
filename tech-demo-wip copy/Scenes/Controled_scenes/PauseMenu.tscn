@@ -19,37 +19,37 @@
 
 [node name="Node2D" type="Node2D" unique_id=1150238841]
 
-[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=517143652]
+[node name="Pause" type="CanvasLayer" parent="." unique_id=517143652]
 process_mode = 3
 script = ExtResource("2_wq7s8")
 
-[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=2056819740]
+[node name="ColorRect" type="ColorRect" parent="Pause" unique_id=2056819740]
 offset_right = 637.0
 offset_bottom = 479.0
 color = Color(0, 0, 0, 0.60784316)
 metadata/_edit_use_anchors_ = true
 
-[node name="PlaytimeFrame" type="Sprite2D" parent="CanvasLayer" unique_id=2079231087]
+[node name="PlaytimeFrame" type="Sprite2D" parent="Pause" unique_id=2079231087]
 position = Vector2(120, 449)
 texture = ExtResource("8_ot4yg")
 
-[node name="onScreenTimer" parent="CanvasLayer" unique_id=1487595959 instance=ExtResource("9_eaas8")]
+[node name="onScreenTimer" parent="Pause" unique_id=1487595959 instance=ExtResource("9_eaas8")]
 position = Vector2(185, 455)
 
-[node name="SelectablesFrame" type="Sprite2D" parent="CanvasLayer" unique_id=1133074569]
+[node name="SelectablesFrame" type="Sprite2D" parent="Pause" unique_id=1133074569]
 texture_filter = 1
 position = Vector2(120, 109.75)
 scale = Vector2(1, 1.0209303)
 texture = ExtResource("2_crw3k")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=333236775]
+[node name="VBoxContainer" type="VBoxContainer" parent="Pause" unique_id=333236775]
 offset_left = 6.0
 offset_top = 5.0
 offset_right = 236.0
 offset_bottom = 213.0
 script = ExtResource("5_eaw1b")
 
-[node name="Inventory" type="TextureButton" parent="CanvasLayer/VBoxContainer" unique_id=262047727]
+[node name="Inventory" type="TextureButton" parent="Pause/VBoxContainer" unique_id=262047727]
 texture_filter = 1
 layout_mode = 2
 texture_normal = ExtResource("5_23xdr")
@@ -57,7 +57,7 @@ texture_hover = ExtResource("1_ovcnl")
 texture_focused = ExtResource("1_ovcnl")
 script = ExtResource("7_2xir5")
 
-[node name="Settings" type="TextureButton" parent="CanvasLayer/VBoxContainer" unique_id=583009550]
+[node name="Settings" type="TextureButton" parent="Pause/VBoxContainer" unique_id=583009550]
 texture_filter = 1
 layout_mode = 2
 texture_normal = ExtResource("2_4sm1o")
@@ -65,13 +65,13 @@ texture_hover = ExtResource("8_2xir5")
 texture_focused = ExtResource("8_2xir5")
 metadata/_edit_use_anchors_ = true
 
-[node name="Save" type="TextureButton" parent="CanvasLayer/VBoxContainer" unique_id=1215228972]
+[node name="Save" type="TextureButton" parent="Pause/VBoxContainer" unique_id=1215228972]
 layout_mode = 2
 texture_normal = ExtResource("6_ot4yg")
 texture_hover = ExtResource("10_eaw1b")
 texture_focused = ExtResource("10_eaw1b")
 
-[node name="Quit" type="TextureButton" parent="CanvasLayer/VBoxContainer" unique_id=209617928]
+[node name="Quit" type="TextureButton" parent="Pause/VBoxContainer" unique_id=209617928]
 texture_filter = 1
 layout_mode = 2
 texture_normal = ExtResource("3_wq7s8")
@@ -79,12 +79,12 @@ texture_hover = ExtResource("12_gug34")
 texture_focused = ExtResource("12_gug34")
 metadata/_edit_use_anchors_ = true
 
-[node name="PlayerDataFrame" type="Sprite2D" parent="CanvasLayer" unique_id=1513415719]
+[node name="PlayerDataFrame" type="Sprite2D" parent="Pause" unique_id=1513415719]
 position = Vector2(440, 240)
 scale = Vector2(0.6993007, 0.7692308)
 texture = ExtResource("7_eaas8")
 
-[node name="Label" type="Label" parent="CanvasLayer" unique_id=800325286]
+[node name="Label" type="Label" parent="Pause" unique_id=800325286]
 offset_left = 12.0
 offset_top = 444.0
 offset_right = 108.0
@@ -92,5 +92,5 @@ offset_bottom = 467.0
 theme_override_fonts/font = ExtResource("10_jw4xv")
 text = "Playtime:"
 
-[connection signal="pressed" from="CanvasLayer/VBoxContainer/Settings" to="CanvasLayer" method="_on_settings_pressed"]
-[connection signal="pressed" from="CanvasLayer/VBoxContainer/Quit" to="CanvasLayer" method="_on_quit_pressed"]
+[connection signal="pressed" from="Pause/VBoxContainer/Settings" to="Pause" method="_on_settings_pressed"]
+[connection signal="pressed" from="Pause/VBoxContainer/Quit" to="Pause" method="_on_quit_pressed"]

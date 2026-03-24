@@ -1,7 +1,7 @@
 if {getRake} == "1":
 	jump rake?
 label rake?
-[background fade="0.0"]
+[background arg="res://Assets/Backgrounds/Starlight_Forest.JPG" fade="0.0"]
 join starlight left
 starlight: Oh. Welcome back my friend. I did not think I would see you again so soon....
 starlight: ....or ever really.

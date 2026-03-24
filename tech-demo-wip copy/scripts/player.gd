@@ -12,9 +12,11 @@ var last_direction: Vector2 = Vector2.DOWN
 func _ready() -> void:
 	Dialogic.timeline_started.connect(set_physics_process.bind(false))
 	Dialogic.timeline_started.connect(set_process_input.bind(false))
+	Dialogic.timeline_started.connect(set_process_input.bind(false))
 
 	Dialogic.timeline_ended.connect(set_physics_process.bind(true))
 	Dialogic.timeline_ended.connect(set_process_input.bind(true))
+	Dialogic.timeline_started.connect(set_process_input.bind(true))
 	# code prevents player from walking when they interact with objects
 
 func _physics_process(delta: float) -> void:
