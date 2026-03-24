@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cjjh2oji4yppb"
+path="res://.godot/imported/Projectsun grassy plataues.mp3-d58998b0616b2478a49be52ea86f6385.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Music/Projectsun grassy plataues.mp3"
+dest_files=["res://.godot/imported/Projectsun grassy plataues.mp3-d58998b0616b2478a49be52ea86f6385.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
