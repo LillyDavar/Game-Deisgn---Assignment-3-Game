@@ -190,7 +190,7 @@ tile_map_data = PackedByteArray("AAAKAA4AAAAAAAEAAAALAA4AAAAEAAAAAAAJAA4AAAAEAAA
 tile_set = SubResource("TileSet_o4ohm")
 
 [node name="StaticBody2D" parent="." unique_id=1820677552 instance=ExtResource("2_o4ohm")]
-position = Vector2(285, 305)
+position = Vector2(284, 306)
 
 [node name="Player" parent="." unique_id=474665016 instance=ExtResource("3_rrywu")]
 position = Vector2(329, 240)

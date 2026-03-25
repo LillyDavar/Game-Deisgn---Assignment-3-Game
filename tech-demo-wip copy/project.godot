@@ -40,7 +40,7 @@ directories/dtl_directory={
 "Interacts": "res://Timelines/Interactions/Interacts.dtl",
 "Player Name": "res://Timelines/Conversations/Player Name.dtl",
 "Rake": "res://Timelines/Interactions/Rake.dtl",
-"Red Conversation ": "res://Timelines/Red Conversation .dtl",
+"Red Conversation ": "res://Timelines/Conversations/Red Conversation .dtl",
 "Starlight Conversations": "res://Timelines/Conversations/Starlight Conversations.dtl",
 "door interact": "res://Timelines/Interactions/door interact.dtl",
 "lever-1": "res://Timelines/Interactions/lever-1.dtl",

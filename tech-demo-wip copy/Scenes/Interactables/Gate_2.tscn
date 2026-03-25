@@ -1,8 +1,37 @@
 [gd_scene format=3 uid="uid://cg7ke6kv2k7bw"]
 
 [ext_resource type="Script" uid="uid://7yy025p5op6r" path="res://scripts/gate_2.gd" id="1_gfnu2"]
-[ext_resource type="Texture2D" uid="uid://vg1eknej318f" path="res://Assets/Sprites/Tiles/TEMP GATE.png" id="2_kk537"]
+[ext_resource type="Texture2D" uid="uid://hup1i20v22o6" path="res://Assets/Sprites/Tiles/Gate.png" id="2_gfnu2"]
 [ext_resource type="PackedScene" uid="uid://bu5gdw4yam8di" path="res://Scenes/interactable.tscn" id="3_6sd0d"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6sd0d"]
+atlas = ExtResource("2_gfnu2")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gfnu2"]
+atlas = ExtResource("2_gfnu2")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kk537"]
+atlas = ExtResource("2_gfnu2")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7l3st"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6sd0d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gfnu2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kk537")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_plytk"]
 size = Vector2(188.5, 37)
@@ -14,11 +43,11 @@ size = Vector2(189, 50)
 collision_layer = 260
 script = ExtResource("1_gfnu2")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=344393918]
+[node name="Sprite2D" type="AnimatedSprite2D" parent="." unique_id=1655449459]
 texture_filter = 1
-position = Vector2(53.65623, 10)
+position = Vector2(56, 16)
 scale = Vector2(4.319293, 1.9354837)
-texture = ExtResource("2_kk537")
+sprite_frames = SubResource("SpriteFrames_7l3st")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1183147460]
 position = Vector2(46.75, 7.5)

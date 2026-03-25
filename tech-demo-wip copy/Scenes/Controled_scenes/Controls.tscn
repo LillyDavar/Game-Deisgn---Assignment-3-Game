@@ -1,0 +1,82 @@
+[gd_scene format=3 uid="uid://bnjygskhsshwa"]
+
+[ext_resource type="Script" uid="uid://utql7w07uegp" path="res://scripts/controls.gd" id="1_16l52"]
+[ext_resource type="Texture2D" uid="uid://vwuykrprg33p" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - Yes [Unselected].png" id="1_q8khb"]
+[ext_resource type="Texture2D" uid="uid://b1vjorjnd52xx" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - Yes [Selected].png" id="2_scvkl"]
+[ext_resource type="Texture2D" uid="uid://6epx7wvahpl5" path="res://Assets/User Interface/Pause Menu/Playtime Frame.png" id="4_s6kl1"]
+[ext_resource type="Texture2D" uid="uid://d3hhohgwle38b" path="res://Assets/User Interface/Inventory Menu/Item List Frame.png" id="5_jwimm"]
+[ext_resource type="FontFile" uid="uid://ckogoootmvtu7" path="res://Assets/Fonts/BMSPA___.TTF" id="6_jucy7"]
+[ext_resource type="AudioStream" uid="uid://ejmlk2owy1y0" path="res://Assets/Audio/01 - The Dream Starts.mp3" id="7_gk20v"]
+
+[node name="Node2D" type="Node2D" unique_id=725063658]
+script = ExtResource("1_16l52")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1268901146]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(16.035158, 12.228542)
+color = Color(0.07683582, 0.07683582, 0.07683582, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1228551190]
+offset_left = 216.0
+offset_top = 392.0
+offset_right = 375.0
+offset_bottom = 432.0
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=1731043252]
+offset_left = 304.0
+offset_top = 400.0
+offset_right = 350.0
+offset_bottom = 440.0
+texture_normal = ExtResource("1_q8khb")
+texture_hover = ExtResource("2_scvkl")
+
+[node name="PlaytimeFrame" type="Sprite2D" parent="." unique_id=398843553]
+position = Vector2(320, 408.00003)
+scale = Vector2(0.49391812, 0.85503197)
+texture = ExtResource("4_s6kl1")
+
+[node name="ItemListFrame" type="Sprite2D" parent="." unique_id=1460259171]
+position = Vector2(320, 184)
+scale = Vector2(0.657967, 0.64000005)
+texture = ExtResource("5_jwimm")
+
+[node name="How to play Game" type="Label" parent="." unique_id=1873529169]
+offset_left = 208.0
+offset_top = 24.0
+offset_right = 429.0
+offset_bottom = 47.0
+theme_override_colors/font_color = Color(0.06666667, 1, 1, 1)
+theme_override_fonts/font = ExtResource("6_jucy7")
+text = "How to Play Game :3"
+
+[node name="Label" type="Label" parent="." unique_id=1481221914]
+offset_left = 56.0
+offset_top = 64.0
+offset_right = 628.0
+offset_bottom = 243.0
+scale = Vector2(0.9217828, 1)
+theme_override_fonts/font = ExtResource("6_jucy7")
+text = "Interact --> Z
+
+Player Movement: Arrow Keys
+
+Dialogue: Left click or space to advance dialogue
+
+Dialogue choices: Space or left click"
+
+[node name="Understand?" type="Label" parent="." unique_id=2047653651]
+offset_left = 224.0
+offset_top = 360.0
+offset_right = 425.0
+offset_bottom = 383.0
+theme_override_fonts/font = ExtResource("6_jucy7")
+text = "You Understand?"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Understand?" unique_id=132455614]
+stream = ExtResource("7_gk20v")
+volume_db = -37.734
+autoplay = true
+stream_paused = true
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

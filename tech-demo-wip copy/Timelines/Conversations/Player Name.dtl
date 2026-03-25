@@ -7,11 +7,11 @@ Is this right?
 - Yes
 	Very well
 	Sweet dreams...{MC}
-	set {RAKE} = "False"
-	set {Lever_1} = "False"
-	set {RED_Name} = "False"
-	set {getRake} = "False"
-	set {StarlightRake} = "False"
+	set {RAKE} = false
+	set {Lever_1} = false
+	set {RED_Name} = false
+	set {getRake} = false
+	set {StarlightRake} = false
 	jump timeline/
 - No
 	I see...

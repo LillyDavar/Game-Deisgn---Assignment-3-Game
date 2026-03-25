@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c3x3543m05ofx"]
 
 [ext_resource type="Script" uid="uid://dnceii5b3wtb0" path="res://scripts/lever_1.gd" id="1_i4omq"]
-[ext_resource type="Texture2D" uid="uid://dhk0xoyqpcqqu" path="res://Assets/Temp sprites/lever.png" id="2_cyn17"]
+[ext_resource type="Texture2D" uid="uid://dltao6xan40t1" path="res://Assets/Sprites/Tiles/lever-1.png" id="2_i4omq"]
 [ext_resource type="PackedScene" uid="uid://bu5gdw4yam8di" path="res://Scenes/interactable.tscn" id="3_qnujl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_plytk"]
@@ -19,7 +19,7 @@ texture_filter = 1
 position = Vector2(7.5, 10)
 rotation = 3.142378
 scale = Vector2(2.3125002, 1.9354837)
-texture = ExtResource("2_cyn17")
+texture = ExtResource("2_i4omq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1183147460]
 visible = false

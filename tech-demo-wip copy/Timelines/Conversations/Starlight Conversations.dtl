@@ -1,4 +1,4 @@
-if {getRake} == "1":
+if {getRake} == true:
 	jump rake?
 label rake?
 [background arg="res://Assets/Backgrounds/Starlight_Forest.JPG" fade="0.0"]
@@ -17,7 +17,7 @@ if {RAKE} == "1":
 			starlight: passed down through the family for 30 years
 			starlight: It quite a nice rake. Red lends it to me for my monthly raking
 			starlight: Oh she must have gotten herself all thrown into a knot cause of this...
-			if {getRake} == "1":
+			if {getRake} == true:
 				- Yeah she is really mad.
 					starlight: Oh I feel terrible. TERRIBLE I say.
 					starlight: My friend you have to return it for me! I am affraid she will be quite upset with me. It might be best if she does not see me for a day or two.
@@ -25,6 +25,6 @@ if {RAKE} == "1":
 					- I can do that.
 						starlight: You can? Excelant! Thank you so much my friend!
 						starlight: I will not keep you. Many thanks go to you friend.
-						set {StarlightRake} = "true"
+						set {StarlightRake} = true
 						[end_timeline]
 - I was talking to red...

@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dkbkdf474162w"]
+
+[ext_resource type="AudioStream" uid="uid://ejmlk2owy1y0" path="res://Assets/Audio/01 - The Dream Starts.mp3" id="1_llwpu"]
+
+[node name="Menu Music" type="Node2D" unique_id=1946200428]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1558678583]
+stream = ExtResource("1_llwpu")
+volume_db = -39.228
+autoplay = true
