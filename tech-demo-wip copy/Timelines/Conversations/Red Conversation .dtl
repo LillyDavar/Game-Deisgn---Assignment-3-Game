@@ -1,7 +1,10 @@
-[background arg="#000000ff" fade="0.8"]
+[background arg="#000000ff" fade="2.3"]
 join Red? center
 join Main center
-if {StarlightRake} == false:
+I walk through the gate.
+if {StarlightRake} == "false":
+	[background arg="res://Assets/Backgrounds/FOREST_GATE.png" fade="0.0"]
+	join Red left
 	Red?: Oh you're a new face? Who are you wondering these woods?
 	- I'm {MC}
 		Red?: {MC}? That's a name I suppose...

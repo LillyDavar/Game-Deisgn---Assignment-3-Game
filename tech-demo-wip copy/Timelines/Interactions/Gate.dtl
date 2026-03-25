@@ -1,11 +1,11 @@
-if {Lever_1} == "False":
+if {Lever_1} == false:
 	Its a gate...its locked
 	Through it you can see the gate you got to go through...
 	It appears to also be locked.
 	You get the weird idea that there are two levers nearby...
 	Maybe if you find these levers and flip them and return you can open the gate?
 	[end_timeline]
-if {Lever_1} == "True":
+if {Lever_1} == true:
 	The gate...feels open...you don't know how else to describe it
 	open the gate?
 	- Yes
