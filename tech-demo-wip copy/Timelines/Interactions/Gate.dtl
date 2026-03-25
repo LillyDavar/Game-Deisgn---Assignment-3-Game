@@ -6,19 +6,18 @@ if {Lever_1} == "False":
 	Maybe if you find these levers and flip them and return you can open the gate?
 	[end_timeline]
 if {Lever_1} == "True":
-	if {getRake} == "false":
-		The gate...feels open...you don't know how else to describe it
-		open the gate?
+	The gate...feels open...you don't know how else to describe it
+	open the gate?
+	- Yes
+		You push the gate open and walk through
+		do SceneManager.change_scene("res://TAK TAK TAK.tscn")
+		jump Red Conversation /
+	- No
+		[end_timeline]
+	if {getRake} == "true":
+		Its a gate.
+		Go through the Gate?
 		- Yes
-			You push the gate open and walk through
-			do SceneManager.change_scene("res://TAK TAK TAK.tscn")
-			jump Red Conversation /
+			do SceneManager.change_scene("res://Scenes/Maps/Grand_Forest_2.tscn")
 		- No
 			[end_timeline]
-		if {getRake} == "true":
-			Its a gate.
-			Go through the Gate?
-			- Yes
-				do SceneManager.change_scene("res://Scenes/Maps/Grand_Forest_2.tscn")
-			- No
-				[end_timeline]

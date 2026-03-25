@@ -1,0 +1,8 @@
+It's a rake! It looks nice enough to be an Heirloom.
+Pick it up?
+- Yes
+	set {RAKE} = "True"
+	The rake feels odd in the hands.
+	I wonder why Starlight left this in the woods?
+	I should talk to Starlight before bringing this back...
+	[end_timeline]

@@ -1,8 +1,7 @@
 It's the gate you came throught.
 Do you want to go back through?
 - Yes
-	do SceneManager.change_scene("res://Scenes/Maps/Grand Forest_2.tscn")
-	[end_timeline]
+	do SceneManager.change_scene("res://Scenes/Maps/Grand_Forest_2.tscn")
 - No
 	In a minute...
 	[end_timeline]

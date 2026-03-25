@@ -7,4 +7,4 @@ func _ready() -> void:
 	interactable.interact = _on_interact
 	
 func _on_interact():
-	Dialogic.start("res://Timelines/Interactions/Fridge.dtl")
+	Dialogic.start("res://Timelines/Interactions/Rake.dtl")

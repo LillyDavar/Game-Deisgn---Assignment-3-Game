@@ -55,4 +55,22 @@ elif {StarlightRake} == "True":
 			Red: ...Sorry?
 			Red: She stole my rake and is SORRY?
 			Red: ...that moon headed bastard.
+			- She said she forgot to give it back to you.
+				Red: She...just forgot
+				- She promised to make it up to you.
+					Red: ...
+					Red: ...Well I guess thats good enough for now
+					Red: Here, I'll open the gate for you.
+					Red walk's towards the gate and I follow her.
+					She reaches the gate and after gentally putting her rake down, pulls out a very key
+					...a very large key
+					inserting it, the gate is thrown open
+					Red: Well there you go.
+					Red: I wish you luck in in there.
+					Red: If I were you...I would look for Steve he can get you through the more...ruined parts of the bridge.
+					Red: Oh and do be carful there...I think one of the...eyeless are hungry, they tried to steal Starlights pig the other day.
+					- I'll keep that in mind, thank you
+						Red: Good.
+						Red: Good bye {MC}
+						jump Bridge_Opening/
 		- Can you open the gate?

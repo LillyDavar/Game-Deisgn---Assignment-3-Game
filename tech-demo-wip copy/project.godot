@@ -31,6 +31,7 @@ directories/dch_directory={
 "starlight": "res://Assets/Temp sprites/VN_Characters/starlight.dch"
 }
 directories/dtl_directory={
+"Bridge_Opening": "res://Timelines/Interactions/Bridge_Opening.dtl",
 "First convo": "res://Timelines/Conversations/First convo.dtl",
 "Fridge": "res://Timelines/Interactions/Fridge.dtl",
 "Gate": "res://Timelines/Interactions/Gate.dtl",
@@ -38,6 +39,7 @@ directories/dtl_directory={
 "Gate_3": "res://Timelines/Interactions/Gate_3.dtl",
 "Interacts": "res://Timelines/Interactions/Interacts.dtl",
 "Player Name": "res://Timelines/Conversations/Player Name.dtl",
+"Rake": "res://Timelines/Interactions/Rake.dtl",
 "Red Conversation ": "res://Timelines/Red Conversation .dtl",
 "Starlight Conversations": "res://Timelines/Conversations/Starlight Conversations.dtl",
 "door interact": "res://Timelines/Interactions/door interact.dtl",
