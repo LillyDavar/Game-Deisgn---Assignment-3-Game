@@ -1,8 +1,12 @@
 It's the gate you came throught.
 Do you want to go back through?
 - Yes
-	do SceneManager.change_scene("res://Scenes/Maps/Grand_Forest_2.tscn")
-	jump Red Conversation /
+	if {RAKE} == true:
+		do SceneManager.change_scene("res://Scenes/Maps/Grand_Forest_2.tscn")
+		jump Red_Convo_1/
+	else:
+		I don't have the rake yet.
+		I should find the rake first.
 - No
 	In a minute...
 	[end_timeline]
