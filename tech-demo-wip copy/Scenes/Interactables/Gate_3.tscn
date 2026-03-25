@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://bpiex7x8ihirc"]
 
 [ext_resource type="Script" uid="uid://kfdfw1guitkb" path="res://scripts/gate_3.gd" id="1_l2h17"]
-[ext_resource type="Texture2D" uid="uid://vg1eknej318f" path="res://Assets/Sprites/Tiles/TEMP GATE.png" id="2_da64l"]
 [ext_resource type="PackedScene" uid="uid://bu5gdw4yam8di" path="res://Scenes/interactable.tscn" id="3_ex3ft"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_plytk"]
@@ -18,7 +17,6 @@ script = ExtResource("1_l2h17")
 texture_filter = 1
 position = Vector2(53.65623, 10)
 scale = Vector2(4.319293, 1.9354837)
-texture = ExtResource("2_da64l")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1183147460]
 position = Vector2(46.75, 7.5)
