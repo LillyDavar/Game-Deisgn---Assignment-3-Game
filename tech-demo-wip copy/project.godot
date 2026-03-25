@@ -25,6 +25,7 @@ GameState="*uid://s1owip6jcqyk"
 
 directories/dch_directory={
 "???": "res://Assets/Temp sprites/VN_Characters/???.dch",
+"Lost_Tree ": "res://Timelines/Conversations/Lost_Tree .dch",
 "Main": "res://Assets/Audio/Sound Effects/Main.dch",
 "Red": "res://Assets/Temp sprites/VN_Characters/Red.dch",
 "Red?": "res://Assets/Temp sprites/VN_Characters/Red?.dch",
@@ -38,6 +39,7 @@ directories/dtl_directory={
 "Gate_2": "res://Timelines/Interactions/Gate_2.dtl",
 "Gate_3": "res://Timelines/Interactions/Gate_3.dtl",
 "Gate_4": "res://Timelines/Interactions/Gate_4.dtl",
+"Hyme_1": "res://Timelines/Conversations/Hyme_1.dtl",
 "Interacts": "res://Timelines/Interactions/Interacts.dtl",
 "Player Name": "res://Timelines/Conversations/Player Name.dtl",
 "Rake": "res://Timelines/Interactions/Rake.dtl",
