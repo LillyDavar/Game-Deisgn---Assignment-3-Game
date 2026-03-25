@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bb3ebfstdpjev"]
 
-[ext_resource type="Script" uid="uid://mmaw2fkaqjt6" path="res://scripts/fridge.gd" id="1_idltb"]
+[ext_resource type="Script" uid="uid://b7yrmadl1upjd" path="res://scripts/rake.gd" id="1_idltb"]
 [ext_resource type="Texture2D" uid="uid://bm34q4o3osrep" path="res://Assets/Temp sprites/Objects/Basic tools and meterials.png" id="2_idltb"]
 [ext_resource type="PackedScene" uid="uid://bu5gdw4yam8di" path="res://Scenes/interactable.tscn" id="3_r10ua"]
 
