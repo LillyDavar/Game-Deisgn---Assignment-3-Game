@@ -8,6 +8,7 @@ Is this right?
 	Very well
 	Sweet dreams...{MC}
 	set {RAKE} = "False"
+	set {Lever_1} = "False"
 	set {RED_Name} = "False"
 	set {getRake} = "False"
 	set {StarlightRake} = "False"

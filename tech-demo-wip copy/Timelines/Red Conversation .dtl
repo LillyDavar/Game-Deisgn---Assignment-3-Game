@@ -38,6 +38,8 @@ if {StarlightRake} == "False":
 		Red: Perfect!
 		Red: Come back when you have my rake and I'll open the gate for you.
 		set {getRake} = "true"
+		do SceneManager.change_scene("res://Scenes/Maps/Grand_Forest_2.tscn")
+		[end_timeline]
 elif {StarlightRake} == "True":
 	Red: Ah! You have returned!
 	Red: Did you have to kill her for it???

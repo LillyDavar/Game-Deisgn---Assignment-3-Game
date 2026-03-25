@@ -32,11 +32,16 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "First convo": "res://Timelines/Conversations/First convo.dtl",
+"Fridge": "res://Timelines/Interactions/Fridge.dtl",
+"Gate": "res://Timelines/Interactions/Gate.dtl",
+"Gate_2": "res://Timelines/Interactions/Gate_2.dtl",
+"Gate_3": "res://Timelines/Interactions/Gate_3.dtl",
 "Interacts": "res://Timelines/Interactions/Interacts.dtl",
 "Player Name": "res://Timelines/Conversations/Player Name.dtl",
 "Red Conversation ": "res://Timelines/Red Conversation .dtl",
 "Starlight Conversations": "res://Timelines/Conversations/Starlight Conversations.dtl",
 "door interact": "res://Timelines/Interactions/door interact.dtl",
+"lever-1": "res://Timelines/Interactions/lever-1.dtl",
 "timeline": "res://Timelines/Conversations/timeline.dtl"
 }
 layout/style_directory={
@@ -47,6 +52,7 @@ layout/style_list=["res://Assets/Audio/Sound Effects/New_File.tres"]
 layout/default_style="res://Assets/Audio/Sound Effects/New_File.tres"
 variables={
 "F_GENDER": "",
+"Lever_1": "",
 "MC": "",
 "M_GENDER": "",
 "N_A_GENDER": "",

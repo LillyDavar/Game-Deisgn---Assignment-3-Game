@@ -1,0 +1,9 @@
+It's a...axe that thinks its a lever?
+flip it?
+- Yes
+	set {Lever_1} = "True"
+	You flip the...axe...lever...thing
+	[end_timeline]
+- No
+	You back away from it
+	[end_timeline]

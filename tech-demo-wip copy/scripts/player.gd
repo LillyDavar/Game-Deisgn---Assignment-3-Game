@@ -1,5 +1,6 @@
 extends CharacterBody2D
 
+class_name Player
 
 const SPEED = 150.0
 # speed of player...will have to edit if we add a sprint function , NOTE: Look into sprint function
