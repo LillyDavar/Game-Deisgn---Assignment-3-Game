@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://beywjk3ot7n0o" path="res://Scenes/Controled_scenes/PauseMenu.tscn" id="3_i6v3k"]
 [ext_resource type="PackedScene" uid="uid://bkto22cjqbhrf" path="res://Scenes/Interactables/Steve.tscn" id="4_w2ea6"]
 [ext_resource type="PackedScene" uid="uid://cyajspruhcgh6" path="res://Scenes/Interactables/Gate_4.tscn" id="5_y1kbo"]
+[ext_resource type="AudioStream" uid="uid://co5gy7akt2un0" path="res://Assets/Temp sprites/41 - Shining Under the Step, Above The Slope.mp3" id="7_uiqj2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ac4df"]
 texture = ExtResource("1_1agv2")
@@ -89,7 +90,7 @@ position = Vector2(-773, -219)
 scale = Vector2(0.47999513, 1)
 
 [node name="Player" parent="." unique_id=474665016 instance=ExtResource("2_ac4df")]
-position = Vector2(-380, -47)
+position = Vector2(-516, -48)
 
 [node name="Node2D" parent="Player" unique_id=1150238841 instance=ExtResource("3_i6v3k")]
 position = Vector2(-30, -159)
@@ -103,3 +104,8 @@ scale = Vector2(0.40009394, 0.32555485)
 
 [node name="Hyem2" parent="." unique_id=1748593617 instance=ExtResource("1_12bpc")]
 position = Vector2(4767, -1132)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=846443641]
+stream = ExtResource("7_uiqj2")
+volume_db = -8.968
+autoplay = true
