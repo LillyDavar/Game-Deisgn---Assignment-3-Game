@@ -8,6 +8,7 @@ Is this right?
 	Very well
 	Sweet dreams...{MC}
 	set {RAKE} = false
+	set {Hat} = false
 	set {Lever_1} = false
 	set {RED_Name} = false
 	set {getRake} = false
@@ -16,4 +17,3 @@ Is this right?
 - No
 	I see...
 	jump Name choice
-Red: ...that moon headed bastard.

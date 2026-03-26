@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bnjygskhsshwa"]
 
-[ext_resource type="Script" path="res://scripts/controls.gd" id="1_16l52"]
+[ext_resource type="Script" uid="uid://utql7w07uegp" path="res://scripts/controls.gd" id="1_16l52"]
 [ext_resource type="Texture2D" uid="uid://vwuykrprg33p" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - Yes [Unselected].png" id="1_q8khb"]
 [ext_resource type="Texture2D" uid="uid://b1vjorjnd52xx" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - Yes [Selected].png" id="2_scvkl"]
 [ext_resource type="Texture2D" uid="uid://6epx7wvahpl5" path="res://Assets/User Interface/Pause Menu/Playtime Frame.png" id="4_s6kl1"]

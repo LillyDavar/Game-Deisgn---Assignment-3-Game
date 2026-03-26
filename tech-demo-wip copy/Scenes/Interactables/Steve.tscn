@@ -1,16 +1,23 @@
 [gd_scene format=3 uid="uid://bkto22cjqbhrf"]
 
-[ext_resource type="Script" uid="uid://bpwinu5rqb0g3" path="res://Scripts/steve.gd" id="1_1l2n4"]
-[ext_resource type="Texture2D" uid="uid://dwp52lepjfmeq" path="res://Assets/Temp sprites/PC _ Computer - Yume Nikki - Non-Playable Characters - Dream Denizens(1).png" id="2_emv70"]
+[ext_resource type="Script" uid="uid://bpwinu5rqb0g3" path="res://scripts/steve.gd" id="1_1l2n4"]
+[ext_resource type="Texture2D" uid="uid://cxhinmky46u5l" path="res://Assets/Sprites/Character Sprites/D0254017-E331-47D6-B580-D5D5B735E268.png" id="2_1l2n4"]
 [ext_resource type="PackedScene" uid="uid://bu5gdw4yam8di" path="res://Scenes/interactable.tscn" id="3_1llrq"]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_emv70"]
+atlas = ExtResource("2_1l2n4")
+region = Rect2(0, 0, 32, 32)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_1llrq"]
-atlas = ExtResource("2_emv70")
-region = Rect2(0, 0, 275, 251)
+atlas = ExtResource("2_1l2n4")
+region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_8tvjd"]
 animations = [{
 "frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_emv70")
+}, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1llrq")
 }],
@@ -20,7 +27,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_plytk"]
-size = Vector2(528, 644.5)
+size = Vector2(528, 596.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8pjge"]
 size = Vector2(600, 696)
@@ -31,13 +38,13 @@ script = ExtResource("1_1l2n4")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=845670229]
 texture_filter = 1
-position = Vector2(6.000001, 4.0000005)
-scale = Vector2(1.9795693, 2.534446)
+position = Vector2(7.6293945e-06, 8.000015)
+scale = Vector2(16.500002, 20.5)
 sprite_frames = SubResource("SpriteFrames_8tvjd")
 frame_progress = 0.32055807
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1183147460]
-position = Vector2(0, 5.75)
+position = Vector2(0, -18.25)
 shape = SubResource("RectangleShape2D_plytk")
 
 [node name="interactable" parent="." unique_id=402383156 instance=ExtResource("3_1llrq")]

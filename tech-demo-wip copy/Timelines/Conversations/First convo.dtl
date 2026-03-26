@@ -4,31 +4,31 @@ audio "res://Assets/Audio/freesound_community-human-impact-on-ground-6982.mp3"
 join ??? center
 ???: Oh that look's like it was a nasty tumble.
 ???: Are you all right their old chap?
-slowly and with much resistance I open my eyes.
 audio music "res://Assets/Audio/Oudn-02.ogg" [fade="0.3" volume="-1.3" loop="true"]
 [background arg="res://Assets/Backgrounds/Starlight_Forest.JPG" fade="1.0"]
 In my vision I see a woman...or I think there a woman, woman shapped with a...moon for a head.
 join starlight left
 - What?
-	???: Do you not recall? you just fell out of the sky? It was quite a site I'll tell you.
-	???: Oh I'm sorry you must be confused.
+	???: Do you not recall? you just fell out of the sky? It was quite a sight I tell you.
+	???: Oh I'm sorry you must be confused. Allow me to introduce myself please.
 - Who are you?
-	???: Or my pardons, where are my manners?
-starlight: My name is starlight. I am one of the inhabitants of the Grand woods...you actually landed on my front lawn legally speaking...
-starlight: But I promise I won't file any complants with you!
-starlight: I think falling headfirst into the ground from the sky is punishment enough...
+	???: Oh my pardons, where are my manners?
+starlight: My name is [i]starlight[/i]. I am one of the inhabitants of the [color=red]Grand woods...you actually landed on my front lawn legally speaking...
+starlight: But do not fret! I will not file any complants with you!
+starlight: I think falling headfirst into the soil is punishment enough...
 - How did I get here?
 	starlight: Hm? Well you fell out of the sky...
 	starlight: ...OH i think i got it!
 - I must have fainted...
-	starlight: hm? fainted you say? OH that would make sense!
-starlight: The way I see it my friend their is 2 options.
-starlight: Option 1\: You are some kind of Demonic entity here to bring destruction to my property.
-starlight: Option 2\: You my probably concused friend, are dreaming.
+	starlight: hm? Fainted you say? OH that would make sense!
+starlight: The way I see it my friend you are either\:
+starlight: You are some kind of Demonic entity here to bring destruction to my property.
+starlight: or...
+starlight: You my probably concused friend, are dreaming.
 - Dreaming?
-	starlight: Yes dreaming! You fell asleep and this whole world is a figmient of your psychie!
+	starlight: Yes indeed! You fell asleep and everything you see here is a creation from your psyche. A reflection of your wonderful mind.
 	starlight: That would definatly explain a lot of things...
-	starlight: ...like Steve...
+	starlight: ...like Steve.
 	starlight: But I digress.
 - I think you were right the first time
 	starlight: ....
@@ -41,15 +41,16 @@ starlight: You have fallen asleep, and are probably wanting to get back to your 
 - That would be nice...
 - Sure...
 starlight: Perfect!
-starlight: Now unfortunatly because you are now aware that this is a dream you can't just wake your self up normally...
+starlight: Now unfortunately because you are now aware that this is a dream you can't just wake your self up normally...Dream logic you know how it can function yes?
 starlight: However! I am fairly confident I know the way out! You just need to go through the dream world and find the exit!
 - And where is the exit?
 	starlight: I...am not certain.
 - That is very discriptive.
-	Look I just found out my existance is false. Give me a break.
-starlight: My guess would be beyond the Darken Bridges. You can get there through the large gate north of us.
-starlight: The gate might be locked however, one of those eyeless scoundrals tried to steal my pigs...It did not even have a mouth! Oh sorry I am rambling again.
-starlight: If it is locked you can talk to Red. They have the key to the gate and can help you.
+	Look I just found out my existance is a fictisous fabrication. Give me a break.
+starlight: My guess would be beyond the [color=red]Darken Bridges[/color]. You can get there through the large gate north of us.
+starlight: The gate might be locked however, one of those eyeless scoundrals tried to steal my pigs...It did not even have a mouth!
+starlight: Oh apolagizes,  I am rambling again.
+starlight: If it is locked you can talk to [color=red]Red[/color]. They have the key to the gate and can help you.
 - Thank you.
 	starlight: You are most welcome. I wish you the luck in your endevour.
 	do SceneManager.change_scene("res://Scenes/Maps/Grand Forest_1.tscn")

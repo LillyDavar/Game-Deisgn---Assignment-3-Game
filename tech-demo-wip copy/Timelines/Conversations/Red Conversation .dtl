@@ -2,43 +2,42 @@
 join Red? center
 join Main center
 
-	[background arg="res://Assets/Backgrounds/FOREST_GATE.png" fade="0.0"]
-	join Red left
-	Red?: Oh you're a new face? Who are you wondering these woods?
-	- I'm {MC}
-		Red?: {MC}? That's a name I suppose...
-		set {RED_Name} = true
-		Red: Pleasure to have met. I'm Red. Is there something you needed?
-		- I was trying to get out of the woods...
-			Red: Ah and the gate is locked?
-			Red: Yes I am sorry about that. Unfortantly the gate is to remained locked until further notice.
-			Red: You see a...."Friend" of mine has stolen some property of mine, and I know she will try to escape if I unlock the gate.
-			Red: So until that moon headed bastard gives me back my damn rake that gate will remained locked.
-			Red: Ah so you know her than? Figures she seems to know damn near everyone here....
-			- Starlight?
-				Red: Oh you know her? Figures she can worm her way into everyone's life.
-				Red: What did she tell you? That she bought the rake off me? That she's borrowing it? That she bought it herself?
-				Red: What lie did she tell you?
-				- She didn't mention a rake...
-					Red: She...didn't even mention the rake...
-					Red: my FAMILY HEIRLOOM RAKE!
-					Red: that moon headed BASTARD!
-					Red: ...
-					jump rake help
-			- A rake?
-				Red: Yes a rake.
-				Red: I know from your face that you are judging me. Its a family heirloom I'll have you know!
-				Red: That theif Starlight must have taken it from me I just know it....
+[background arg="res://Assets/Backgrounds/FOREST_GATE.png" fade="0.0"]
+join Red left
+Red?: Oh you're a new face? Who are you wondering these woods?
+- I'm {MC}
+	Red?: {MC}? Well I suppose that's a name you're allowed to choose...
+	set {RED_Name} = true
+	Red: Pleasure to have met you. I'm Red. Is there something you needed?
+	- I was trying to get out of the woods...
+		Red: Ah and the gate is locked?
+		Red: Yes I am sorry about that. Unfortantly the gate is to remained locked until further notice.
+		Red: You see a "Friend" of mine has stolen some of value of mine, and I most positive that she will try to escape if I unlock the gate.
+		Red: So, until that moon headed bastard gives me back my damn rake that gate will remained locked.
+		- Starlight?
+			Red: Oh you know her? Figures she can worm her way into everyone's life.
+			Red: What did she tell you? That she bought the rake off me? That she's borrowing it? That she bought it herself?
+			- She didn't mention a rake...
+				Red: She...didn't even mention the rake...
+				Red: My FAMILY HEIRLOOM RAKE!
+				Red: that moon headed BASTARD!
+				Red: ...
 				jump rake help
-	label rake help
-	Red: .......
-	Red: ...hey I think I know how we can help eachother here.
-	Red: If I talk to Starlight than one of us is going to murder the other, and I do not want to deal with the fallout of murdering that bastard.
-	Red: So how about you go and get my rake back?
-	Red: What do you say
-	- sure.
-		Red: Perfect!
-		Red: Come back when you have my rake and I'll open the gate for you.
-		set {getRake} = true
-		do SceneManager.change_scene("res://Scenes/Maps/Grand_Forest_2.tscn")
-		[end_timeline]
+		- A rake?
+			Red: Yes a rake.
+			Red: I know from your face that you are judging me. Its a family heirloom I'll have you know!
+			Red: That theif Starlight must have taken it from me I just know it....
+			Red: UGH Why do I ever trust her with my possession?
+			jump rake help
+label rake help
+Red: .......
+Red: ...hey I think I know how we can help each other here.
+Red: If I see Starlight I may get the urge to "Dim the lights on her moon" if you understand my phrasing. And I do not want to till with the fallout of such an event.
+Red: So how about you go and get my rake back?
+Red: What do you say
+- sure.
+	Red: Perfect!
+	Red: Come back when you have my rake and I'll open the gate for you.
+	set {getRake} = true
+	do SceneManager.change_scene("res://Scenes/Maps/Grand_Forest_2.tscn")
+	[end_timeline]

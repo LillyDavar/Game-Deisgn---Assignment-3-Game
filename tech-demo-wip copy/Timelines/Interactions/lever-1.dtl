@@ -1,9 +1,9 @@
-It's a...axe that thinks its a lever?
+It's a lever...in the middle of the woods...
 flip it?
 - Yes
 	set {Lever_1} = true
-	You flip the...axe...lever...thing
+	You flip the lever. Faintly you hear something click.
 	[end_timeline]
 - No
-	You back away from it
+	You back away from it.
 	[end_timeline]

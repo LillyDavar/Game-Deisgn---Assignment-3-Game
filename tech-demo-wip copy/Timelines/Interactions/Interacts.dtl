@@ -1,6 +1,8 @@
-It's my Bed, its messy.
+Main: It's my Bed. It is messy
+Main: ...It's really a pitiful bed. If I clean it maybe it will look better...
 - Clean Bed
 	do SceneManager.change_scene("res://TAK TAK TAK.tscn")
 	jump First convo/
 	[end_timeline]
-- Back away
+- Be Lazy and mope around
+	[end_timeline]

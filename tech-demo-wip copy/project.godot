@@ -29,6 +29,7 @@ directories/dch_directory={
 "Main": "res://Assets/Audio/Sound Effects/Main.dch",
 "Red": "res://Assets/Temp sprites/VN_Characters/Red.dch",
 "Red?": "res://Assets/Temp sprites/VN_Characters/Red?.dch",
+"Steve": "res://Assets/Temp sprites/VN_Characters/Steve.dch",
 "starlight": "res://Assets/Temp sprites/VN_Characters/starlight.dch"
 }
 directories/dtl_directory={
@@ -49,16 +50,21 @@ directories/dtl_directory={
 "Steve": "res://Timelines/Conversations/Steve.dtl",
 "door interact": "res://Timelines/Interactions/door interact.dtl",
 "lever-1": "res://Timelines/Interactions/lever-1.dtl",
+"test": "res://Timelines/test.dtl",
 "timeline": "res://Timelines/Conversations/timeline.dtl"
 }
 layout/style_directory={
 "": "res://Assets/Audio/Sound Effects/New_File.tres",
-"New_File": "res://Assets/Audio/Sound Effects/New_File.tres"
+"New file": "res://Assets/Temp sprites/VN_Characters/New file.tres",
+"New_File": "res://Assets/Audio/Sound Effects/New_File.tres",
+"Whisper": "res://Assets/Fonts/Whisper.tres",
+"Yelling": "res://Assets/Temp sprites/VN_Characters/Yelling.tres"
 }
-layout/style_list=["res://Assets/Audio/Sound Effects/New_File.tres"]
+layout/style_list=["res://Assets/Audio/Sound Effects/New_File.tres", "res://Assets/Temp sprites/VN_Characters/New file.tres", "res://Assets/Temp sprites/VN_Characters/Yelling.tres", "res://Assets/Fonts/Whisper.tres"]
 layout/default_style="res://Assets/Audio/Sound Effects/New_File.tres"
 variables={
 "F_GENDER": "",
+"Hat": "",
 "Lever_1": "",
 "MC": "",
 "M_GENDER": "",
@@ -66,7 +72,8 @@ variables={
 "RAKE": "",
 "RED_Name": "",
 "StarlightRake": "",
-"getRake": ""
+"getRake": "",
+"point": ""
 }
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"
@@ -104,6 +111,7 @@ audio/channel_defaults={
 }
 }
 choices/hotkey_behaviour=0
+timer/process_in_physics=true
 
 [display]
 

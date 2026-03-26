@@ -1,4 +1,34 @@
-YOU DID IT!!!!! YOU FOUND STEVE
-That is...it for the demo right now...
-been busy and stuff you know how it is...
-Hope you enjoyed the game! Feedback is appriciated ^^
+???: ...
+Hello there...
+Steve: I am Steve...it's nice to meet you
+Steve: What do you want?
+- I'm trying to get through the Bridges
+	Steve: Oh...so you need help to get through...
+	Steve: I-I think I might not be able to help you
+	Steve: I'm really sorry please don't be mad with me.
+	- Are you ok?
+		Steve: YES...no....I-I don't know anymore.
+		Steve: I'm really sorry. Maybe there is someone else who can help you? Someone not as horrible and stupid as me...
+		Steve: I can't do anything right can I? Can't even help people get across the bridges like I am suppose to.
+		Steve: Can't even keep my [color=red]Hat[/color]...
+		Steve: I am a stupid creature in a stupid hole who is going to [i]DIE ALONE![/i]
+		- I'm sure thats not true...
+			[style name="Yelling"]
+			Steve: [b]Oh WHaT DO [i]YOU[/i] KnOW?[/b]
+			[style]
+			Steve: ...oh...I'm sorry I didn't mean to yell.
+			Steve: I am really sorry.
+			Steve: I ju-I just have been in a runt recently.
+			[style name="Whisper"]
+			Steve: Not enough sleep I think...
+			[style]
+			Steve: I don't know anymore. Again I am really sorry I'm just wasting your time at this point.
+			- You're not wasting my time
+				Steve: Are you sure?
+				- Why would I lie about that?
+					Steve: ...
+					Steve: That is a good point...
+			- It's fine
+			- So can you help me over or not?
+		- ...So is that a no?
+	- So is that a no?
