@@ -5,3 +5,11 @@ if {Hat} == false:
 elif {Hat} == true:
 	It's a hat...why is it here?
 	Pick up the hat
+	- Yes
+		You reach down and pick up the hat.
+		It feels...safe there is no other way to describe the feeling that the hat makes you feel.
+		set {Hat2} = true
+		[end_timeline]
+	- No
+		You leave the hat
+		[end_timeline]

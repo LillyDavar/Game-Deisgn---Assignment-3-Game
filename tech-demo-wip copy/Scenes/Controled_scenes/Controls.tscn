@@ -2,9 +2,11 @@
 
 [ext_resource type="Script" uid="uid://utql7w07uegp" path="res://scripts/controls.gd" id="1_16l52"]
 [ext_resource type="Texture2D" uid="uid://vwuykrprg33p" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - Yes [Unselected].png" id="1_q8khb"]
+[ext_resource type="Script" uid="uid://0fe040kb1xlu" path="res://Scenes/Controled_scenes/v_box_container.gd" id="2_fa6x7"]
 [ext_resource type="Texture2D" uid="uid://b1vjorjnd52xx" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - Yes [Selected].png" id="2_scvkl"]
 [ext_resource type="Texture2D" uid="uid://6epx7wvahpl5" path="res://Assets/User Interface/Pause Menu/Playtime Frame.png" id="4_s6kl1"]
 [ext_resource type="Texture2D" uid="uid://d3hhohgwle38b" path="res://Assets/User Interface/Inventory Menu/Item List Frame.png" id="5_jwimm"]
+[ext_resource type="Script" uid="uid://dtq4o2exw8rk7" path="res://scripts/texture_button.gd" id="5_q77ft"]
 [ext_resource type="FontFile" uid="uid://ckogoootmvtu7" path="res://Assets/Fonts/BMSPA___.TTF" id="6_jucy7"]
 [ext_resource type="AudioStream" uid="uid://ejmlk2owy1y0" path="res://Assets/Audio/01 - The Dream Starts.mp3" id="7_gk20v"]
 
@@ -22,6 +24,7 @@ offset_left = 216.0
 offset_top = 392.0
 offset_right = 375.0
 offset_bottom = 432.0
+script = ExtResource("2_fa6x7")
 
 [node name="TextureButton" type="TextureButton" parent="." unique_id=1731043252]
 offset_left = 304.0
@@ -30,6 +33,7 @@ offset_right = 350.0
 offset_bottom = 440.0
 texture_normal = ExtResource("1_q8khb")
 texture_hover = ExtResource("2_scvkl")
+script = ExtResource("5_q77ft")
 
 [node name="PlaytimeFrame" type="Sprite2D" parent="." unique_id=398843553]
 position = Vector2(320, 408.00003)
@@ -51,19 +55,24 @@ theme_override_fonts/font = ExtResource("6_jucy7")
 text = "How to Play Game :3"
 
 [node name="Label" type="Label" parent="." unique_id=1481221914]
-offset_left = 56.0
+offset_left = 64.0
 offset_top = 64.0
-offset_right = 628.0
-offset_bottom = 243.0
+offset_right = 636.0
+offset_bottom = 301.0
 scale = Vector2(0.9217828, 1)
 theme_override_fonts/font = ExtResource("6_jucy7")
 text = "Interact --> Z
 
 Player Movement: Arrow Keys
 
-Dialogue: Left click or space to advance dialogue
+Pause: Escape Key
 
-Dialogue choices: Space or left click"
+Dialogue: X or space to advance dialogue
+
+Dialogue choices: Space or left click
+
+Coder's note: The dialogue controls are due to 
+engine, I am sorry for the messy controls."
 
 [node name="Understand?" type="Label" parent="." unique_id=2047653651]
 offset_left = 224.0

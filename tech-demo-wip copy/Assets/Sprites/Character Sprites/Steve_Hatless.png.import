@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ih8qn4brxjh6"
-path="res://.godot/imported/43377DE2-6ECC-4295-A18C-47DDBD80F77D.png-da56ef19607f520e1efacc0435b793db.ctex"
+uid="uid://cxhinmky46u5l"
+path="res://.godot/imported/Steve_Hatless.png-4b0ab0e4286f482e5495e16e43632dd9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Character Sprites/43377DE2-6ECC-4295-A18C-47DDBD80F77D.png"
-dest_files=["res://.godot/imported/43377DE2-6ECC-4295-A18C-47DDBD80F77D.png-da56ef19607f520e1efacc0435b793db.ctex"]
+source_file="res://Assets/Sprites/Character Sprites/Steve_Hatless.png"
+dest_files=["res://.godot/imported/Steve_Hatless.png-4b0ab0e4286f482e5495e16e43632dd9.ctex"]
 
 [params]
 

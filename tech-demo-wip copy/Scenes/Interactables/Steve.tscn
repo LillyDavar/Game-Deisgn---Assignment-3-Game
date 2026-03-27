@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bkto22cjqbhrf"]
 
 [ext_resource type="Script" uid="uid://bpwinu5rqb0g3" path="res://scripts/steve.gd" id="1_1l2n4"]
-[ext_resource type="Texture2D" uid="uid://cxhinmky46u5l" path="res://Assets/Sprites/Character Sprites/D0254017-E331-47D6-B580-D5D5B735E268.png" id="2_1l2n4"]
+[ext_resource type="Texture2D" uid="uid://cxhinmky46u5l" path="res://Assets/Sprites/Character Sprites/Steve_Hatless.png" id="2_1l2n4"]
 [ext_resource type="PackedScene" uid="uid://bu5gdw4yam8di" path="res://Scenes/interactable.tscn" id="3_1llrq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_emv70"]

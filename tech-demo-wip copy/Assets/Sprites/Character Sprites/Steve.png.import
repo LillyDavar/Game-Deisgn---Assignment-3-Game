@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxhinmky46u5l"
-path="res://.godot/imported/D0254017-E331-47D6-B580-D5D5B735E268.png-147650e0d32c78efb5829311c08c5ee1.ctex"
+uid="uid://b8k3w6d3nuy1c"
+path="res://.godot/imported/Steve.png-10958803d76b472056917addaf2c46e9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Character Sprites/D0254017-E331-47D6-B580-D5D5B735E268.png"
-dest_files=["res://.godot/imported/D0254017-E331-47D6-B580-D5D5B735E268.png-147650e0d32c78efb5829311c08c5ee1.ctex"]
+source_file="res://Assets/Sprites/Character Sprites/Steve.png"
+dest_files=["res://.godot/imported/Steve.png-10958803d76b472056917addaf2c46e9.ctex"]
 
 [params]
 

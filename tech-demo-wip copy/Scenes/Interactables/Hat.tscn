@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://bdnxrylv0pnff"]
+
+[ext_resource type="Script" uid="uid://be87ctysarcxp" path="res://scripts/hat.gd" id="1_3uwdv"]
+[ext_resource type="Texture2D" uid="uid://ih8qn4brxjh6" path="res://Assets/Sprites/Character Sprites/Top Hsat.png" id="2_a3n8l"]
+[ext_resource type="PackedScene" uid="uid://bu5gdw4yam8di" path="res://Scenes/interactable.tscn" id="3_4s05f"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_plytk"]
+size = Vector2(40, 25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8pjge"]
+size = Vector2(51, 40)
+
+[node name="StaticBody2D" type="StaticBody2D" unique_id=1820677552]
+collision_layer = 260
+script = ExtResource("1_3uwdv")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=344393918]
+texture_filter = 1
+position = Vector2(7.5, 10)
+scale = Vector2(2.3125002, 1.9354837)
+texture = ExtResource("2_a3n8l")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1183147460]
+position = Vector2(6, 10.5)
+shape = SubResource("RectangleShape2D_plytk")
+
+[node name="interactable" parent="." unique_id=402383156 instance=ExtResource("3_4s05f")]
+interact_name = "Inspect Bed"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="interactable" unique_id=45434665]
+position = Vector2(6.5, 11)
+shape = SubResource("RectangleShape2D_8pjge")
