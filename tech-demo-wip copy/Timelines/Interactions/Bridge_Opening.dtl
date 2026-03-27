@@ -1,4 +1,7 @@
 [background arg="res://Assets/Backgrounds/Bridge.JPG" fade="0.0"]
 As soon as I walk onto the bridge I can feel a shift in the air
 But with only one way out...I decide to keep walking onward
+set {Hat} = true
 do SceneManager.change_scene("res://Scenes/Maps/Bridge_1.tscn")
+[background arg="#000000ff" fade="1.0"]
+[end_timeline]

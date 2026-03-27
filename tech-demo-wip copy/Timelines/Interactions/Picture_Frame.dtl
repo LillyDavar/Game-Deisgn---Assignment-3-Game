@@ -1,0 +1,11 @@
+It's a picture frame of you.
+View it?
+- Reminisce
+	[background arg="res://Assets/Backgrounds/Rake_Photo.png" fade="0.7" wait="true"]
+	[wait time="1.0"]
+	It's a photo from when me and my friend did some yardwork for his neighbor.
+	Main: It was fun despite the hard labour.
+	Main: I wonder how he's doing...I should call him later.
+	[end_timeline]
+- Maybe later
+	[end_timeline]

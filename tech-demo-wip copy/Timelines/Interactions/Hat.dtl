@@ -1,0 +1,7 @@
+if {Hat} == false:
+	It's an old hat.
+	When I was younger I used to wear this thing all the time...made me feel a lot more confident going outside
+	But I'm an adult now! Adult's shouldnt need some dumb hat just to go outside of the house.
+elif {Hat} == true:
+	It's a hat...why is it here?
+	Pick up the hat

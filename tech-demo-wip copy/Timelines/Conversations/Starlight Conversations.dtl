@@ -6,7 +6,7 @@ join starlight left
 starlight: Oh. Welcome back my friend. I did not think I would see you again so soon....
 starlight: ....or ever really.
 starlight: What can I help you with?
-if {RAKE} == "1":
+if {RAKE} == true:
 	- So I found this rake...
 		starlight: Oh?
 		starlight: OH! That's Red's rake! I swore I gave that back to her.
@@ -27,4 +27,8 @@ if {RAKE} == "1":
 						starlight: I will not keep you. Many thanks go to you friend.
 						set {StarlightRake} = true
 						[end_timeline]
-- I was talking to red...
+else:
+	- Thought I would say hi
+		starlight: Oh? Well Hi!
+		starlight: It was nice to see you again my Friend.
+		[end_timeline]
