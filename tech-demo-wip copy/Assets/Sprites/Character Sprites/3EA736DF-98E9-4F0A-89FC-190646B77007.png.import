@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cl7c800sbjeq3"
-path="res://.godot/imported/E6019928-1DD7-442F-8422-5F26882736D9.png-c4071ea457eae2a74a7894e8de0489f6.ctex"
+uid="uid://cbfx2hwwoxndq"
+path="res://.godot/imported/3EA736DF-98E9-4F0A-89FC-190646B77007.png-645eacb14b32a0566464675542cf73cc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/E6019928-1DD7-442F-8422-5F26882736D9.png"
-dest_files=["res://.godot/imported/E6019928-1DD7-442F-8422-5F26882736D9.png-c4071ea457eae2a74a7894e8de0489f6.ctex"]
+source_file="res://Assets/Sprites/Character Sprites/3EA736DF-98E9-4F0A-89FC-190646B77007.png"
+dest_files=["res://.godot/imported/3EA736DF-98E9-4F0A-89FC-190646B77007.png-645eacb14b32a0566464675542cf73cc.ctex"]
 
 [params]
 

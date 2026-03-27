@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://bsgcr7gixw0ry" path="res://Scenes/player.tscn" id="2_a68iv"]
 [ext_resource type="PackedScene" uid="uid://wbxv2tip552" path="res://Scenes/Interactables/Player_Door.tscn" id="3_xu8u4"]
 [ext_resource type="PackedScene" uid="uid://bub5sycnx5k38" path="res://Scenes/Interactables/Bed.tscn" id="4_sfh5k"]
+[ext_resource type="PackedScene" uid="uid://cwfi271fjof7l" path="res://Scenes/Interactables/BookShelf.tscn" id="5_8mdeo"]
 [ext_resource type="PackedScene" uid="uid://c0mpfkoyaq3ki" path="res://Scenes/Interactables/Fridge.tscn" id="5_d1juv"]
 [ext_resource type="PackedScene" uid="uid://cmclqbncbccev" path="res://Scenes/Interactables/Picture.tscn" id="6_6ohkb"]
 [ext_resource type="PackedScene" uid="uid://bdnxrylv0pnff" path="res://Scenes/Interactables/Hat.tscn" id="7_ogbhd"]
@@ -53,7 +54,10 @@ scale = Vector2(1.9481468, 1.9481468)
 position = Vector2(280, 32)
 scale = Vector2(2.04, 1)
 
-[node name="StaticBody2D" parent="." unique_id=1820677552 instance=ExtResource("4_sfh5k")]
+[node name="Bookshelf" parent="Door" unique_id=1820677552 instance=ExtResource("5_8mdeo")]
+position = Vector2(94.117645, 8)
+
+[node name="StaticBody2D" parent="." unique_id=1813912208 instance=ExtResource("4_sfh5k")]
 position = Vector2(498, 227)
 
 [node name="StaticBody2D2" parent="." unique_id=903996267 instance=ExtResource("7_ogbhd")]

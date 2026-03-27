@@ -1,0 +1,2 @@
+[background arg="#000000ff" fade="1.5" transition="Swipe Left To Right" wait="true"]
+do SceneManager.change_scene("res://Scenes/Controled_scenes/Controls.tscn")
