@@ -1,7 +1,4 @@
 set {point} = "0"
 - increase point
-	set {point} += 0.0
+	set {point} = "Liar"
 {point}
-- increase point
-	set {point} = "5"
-	{point}
