@@ -24,11 +24,9 @@ GameState="*uid://s1owip6jcqyk"
 [dialogic]
 
 directories/dch_directory={
-"???": "res://Assets/Temp sprites/VN_Characters/???.dch",
 "Lost_Tree ": "res://Timelines/Conversations/Lost_Tree .dch",
 "Main": "res://Assets/Audio/Sound Effects/Main.dch",
 "Not_Important": "res://VN_Characters/Not_Important.dch",
-"Steve": "res://Assets/Temp sprites/VN_Characters/Steve.dch",
 "VN_Characters/???": "res://VN_Characters/???.dch",
 "VN_Characters/Red": "res://VN_Characters/Red.dch",
 "VN_Characters/Red?": "res://VN_Characters/Red?.dch",
@@ -63,15 +61,15 @@ directories/dtl_directory={
 }
 layout/style_directory={
 "": "res://Assets/Audio/Sound Effects/New_File.tres",
-"New file": "res://Assets/Temp sprites/VN_Characters/New file.tres",
 "New_File": "res://Assets/Audio/Sound Effects/New_File.tres",
-"Whisper": "res://Assets/Fonts/Whisper.tres",
-"Yelling": "res://Assets/Temp sprites/VN_Characters/Yelling.tres"
+"Whisper": "res://Assets/Fonts/Whisper.tres"
 }
 layout/style_list=["res://Assets/Audio/Sound Effects/New_File.tres", "res://Assets/Temp sprites/VN_Characters/New file.tres", "res://Assets/Temp sprites/VN_Characters/Yelling.tres", "res://Assets/Fonts/Whisper.tres"]
 layout/default_style="res://Assets/Audio/Sound Effects/New_File.tres"
 variables={
+"Bad_end": "",
 "F_GENDER": "",
+"Good_end": "",
 "Hat": "",
 "Hat2": "",
 "Lever_1": "",

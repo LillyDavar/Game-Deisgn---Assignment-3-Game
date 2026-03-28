@@ -21,4 +21,27 @@ Last time you dreamt something similar you got lost a third the way through...
 		You can figure out which one is which on your own I am sure.
 		- Thank you
 			Oh? leaving so soon? I am not surprised.
+			Before you go wonder off again let me tell you a few things.
 		- Why are you here exactly?
+			oh come on, you are dreaming yes? Surely you can figure it out by now.
+			I am you and you are me and all that fun jazz.
+			Same as the rest of this "Cast" you have conjured up.
+label Judgement
+You have a fun way treating those of us around you don't you?
+Starlight, Red, Steve...all little aspects you're brain has conjured up for one night only...or how ever dreams work.
+So let's see how you treated them...
+{Starlight_Outcome}, {Red_Outcome}
+and you {Steve_Outcome}...
+if {Red_Outcome} == "You left out Starlights apoloagy which left Red in a rage.":
+	if {Starlight_Outcome} == "You left Starlight...that was quite rude of you":
+		jump Bad outcome
+	elif {Starlight_Outcome} == "":
+	jump Bad outcome
+label Bad outcome
+So overall...you treated them poorly it seems.
+If [i]this[/i] is how you treat yourself...
+You really are just as bad as we thought you were.
+But as I have said, we do not judge here...you may leave now. Find the bed that can wake you up...maybe do some thinking on how you treat yourself. And please buy a new fridge for yourself, that thing is not keeping your cheese as cold as it should be.
+goodbye {MC}.
+jump 
+label Good Outcome
