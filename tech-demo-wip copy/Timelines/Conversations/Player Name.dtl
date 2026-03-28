@@ -13,9 +13,6 @@ Is this right?
 	set {RED_Name} = false
 	set {getRake} = false
 	set {StarlightRake} = false
-	set {Bad_end} = false
-	set {Good_end} = false
-	set {Starlight_Outcome} = "You left Starlight...that was quite rude of you"
 	jump timeline/
 - No
 	I see...
