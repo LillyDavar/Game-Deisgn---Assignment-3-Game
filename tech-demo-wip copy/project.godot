@@ -24,14 +24,16 @@ GameState="*uid://s1owip6jcqyk"
 [dialogic]
 
 directories/dch_directory={
-"???": "res://VN_Characters/???.dch",
+"???": "res://Assets/Temp sprites/VN_Characters/???.dch",
 "Lost_Tree ": "res://Timelines/Conversations/Lost_Tree .dch",
 "Main": "res://Assets/Audio/Sound Effects/Main.dch",
 "Not_Important": "res://VN_Characters/Not_Important.dch",
-"Red": "res://VN_Characters/Red.dch",
-"Red?": "res://VN_Characters/Red?.dch",
-"Steve": "res://VN_Characters/Steve.dch",
-"starlight": "res://VN_Characters/starlight.dch"
+"Steve": "res://Assets/Temp sprites/VN_Characters/Steve.dch",
+"VN_Characters/???": "res://VN_Characters/???.dch",
+"VN_Characters/Red": "res://VN_Characters/Red.dch",
+"VN_Characters/Red?": "res://VN_Characters/Red?.dch",
+"VN_Characters/Steve": "res://VN_Characters/Steve.dch",
+"VN_Characters/starlight": "res://VN_Characters/starlight.dch"
 }
 directories/dtl_directory={
 "Bookshelf": "res://Timelines/Interactions/Bookshelf.dtl",

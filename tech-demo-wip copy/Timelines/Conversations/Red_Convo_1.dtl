@@ -1,5 +1,5 @@
 [background arg="res://Assets/Backgrounds/FOREST_GATE.png" fade="0.0"]
-join Red left
+join  left
 Red: Ah! You have returned!
 Red: Did you find my rake?
 Red: DO you have my family heirloom rake????
@@ -31,6 +31,7 @@ Red: DO you have my family heirloom rake????
 				- I'll keep that in mind, thank you
 					Red: Good.
 					Red: Good bye {MC}
+					set {Red_Outcome} = "You told Red the truth, they can move past the distrust that they felt towards Starlight."
 					jump Bridge_Opening/
 	- Can you open the gate?
 		Red: Hm? The gate?
@@ -43,5 +44,5 @@ Red: DO you have my family heirloom rake????
 		Red: Or don't it's up to you at the end of the day.
 		Red: Now if you excuse me I think me and Starlight should have a little "chat" soon...
 		Red: Goodbye {MC}, thank you for holding up your end of the deal.
-		set 
+		set {Red_Outcome} = "You left out Starlights apoloagy which left Red in a rage."
 		jump Bridge_Opening/
