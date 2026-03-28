@@ -74,9 +74,13 @@ variables={
 "MC": "",
 "M_GENDER": "",
 "N_A_GENDER": "",
+"NewVar": "",
 "RAKE": "",
 "RED_Name": "",
+"Red_Outcome": "",
 "StarlightRake": "",
+"Starlight_Outcome": "",
+"Steve_Outcome": "",
 "getRake": "",
 "point": ""
 }
