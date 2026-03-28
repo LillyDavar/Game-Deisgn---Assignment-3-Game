@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5ue0jlx06yve"
-path="res://.godot/imported/Starlight.png-5afe8a81558292d11fa91f5443614b35.ctex"
+uid="uid://svnr4rs63gv7"
+path="res://.godot/imported/TitleArt5.jpg-94a1406d4fccb37f3e37fe14a0c0f1d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Temp sprites/VN_Characters/Starlight.png"
-dest_files=["res://.godot/imported/Starlight.png-5afe8a81558292d11fa91f5443614b35.ctex"]
+source_file="res://Assets/Backgrounds/TitleArt5.jpg"
+dest_files=["res://.godot/imported/TitleArt5.jpg-94a1406d4fccb37f3e37fe14a0c0f1d7.ctex"]
 
 [params]
 

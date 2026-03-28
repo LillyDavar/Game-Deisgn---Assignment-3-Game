@@ -19,7 +19,7 @@
 &"portraits": {
 "temp": {
 "export_overrides": {
-"image": "\"res://Assets/Temp sprites/VN_Characters/Starlight.png\""
+"image": "\"res://VN_Characters/Starlight.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

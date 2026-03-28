@@ -4,11 +4,13 @@ Red: Ah! You have returned!
 Red: Did you find my rake?
 Red: DO you have my family heirloom rake????
 - no (lie)
+	Red: Oh? Than why are you here? No offence but you know I won't open this gate for you otherwise.
+	Red: Come back when you found my rake.
 - Yes I do
 	Red: YOU DO!!!
 	Red: GIVE ME!
 	Red: oh my family heirloom rake, I'll never let you out of my sight again.
-	- Starlight said she was sorry
+	- Starlight said she was sorry | [if {StarlightRake} == true]
 		Red: ...Sorry?
 		Red: She stole my rake and is SORRY?
 		Red: ...that moon headed bastard.
@@ -31,4 +33,15 @@ Red: DO you have my family heirloom rake????
 					Red: Good bye {MC}
 					jump Bridge_Opening/
 	- Can you open the gate?
-I take a few steps through the gate
+		Red: Hm? The gate?
+		Red: Oh yeah that was why you were here.
+		Red: A deals a deal...I'll open the gate for you.
+		Red walks over to the gate and pulls out...a very large key
+		they quickly insert the key and open the gate.
+		Red: Well there you go. The gate is open.
+		Red: If I were you I would try and find Steve, he's a little strange but he can help you get through the bridges safely.
+		Red: Or don't it's up to you at the end of the day.
+		Red: Now if you excuse me I think me and Starlight should have a little "chat" soon...
+		Red: Goodbye {MC}, thank you for holding up your end of the deal.
+		set 
+		jump Bridge_Opening/

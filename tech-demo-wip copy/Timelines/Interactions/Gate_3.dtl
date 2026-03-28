@@ -1,4 +1,4 @@
-It's the gate you came throught.
+It's the gate you came through.
 Do you want to go back through?
 - Yes
 	if {RAKE} == true:

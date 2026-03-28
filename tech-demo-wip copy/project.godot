@@ -24,13 +24,14 @@ GameState="*uid://s1owip6jcqyk"
 [dialogic]
 
 directories/dch_directory={
-"???": "res://Assets/Temp sprites/VN_Characters/???.dch",
+"???": "res://VN_Characters/???.dch",
 "Lost_Tree ": "res://Timelines/Conversations/Lost_Tree .dch",
 "Main": "res://Assets/Audio/Sound Effects/Main.dch",
-"Red": "res://Assets/Temp sprites/VN_Characters/Red.dch",
-"Red?": "res://Assets/Temp sprites/VN_Characters/Red?.dch",
-"Steve": "res://Assets/Temp sprites/VN_Characters/Steve.dch",
-"starlight": "res://Assets/Temp sprites/VN_Characters/starlight.dch"
+"Not_Important": "res://VN_Characters/Not_Important.dch",
+"Red": "res://VN_Characters/Red.dch",
+"Red?": "res://VN_Characters/Red?.dch",
+"Steve": "res://VN_Characters/Steve.dch",
+"starlight": "res://VN_Characters/starlight.dch"
 }
 directories/dtl_directory={
 "Bookshelf": "res://Timelines/Interactions/Bookshelf.dtl",
@@ -52,6 +53,7 @@ directories/dtl_directory={
 "Red_Convo_1": "res://Timelines/Conversations/Red_Convo_1.dtl",
 "Starlight Conversations": "res://Timelines/Conversations/Starlight Conversations.dtl",
 "Steve": "res://Timelines/Conversations/Steve.dtl",
+"The_Big_Convo": "res://Timelines/Conversations/The_Big_Convo.dtl",
 "door interact": "res://Timelines/Interactions/door interact.dtl",
 "lever-1": "res://Timelines/Interactions/lever-1.dtl",
 "test": "res://Timelines/test.dtl",

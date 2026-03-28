@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://y3d5ybskxxay"]
 
 [ext_resource type="Script" uid="uid://cj3fyky0ee12n" path="res://scripts/main_menu.gd" id="1_totuj"]
-[ext_resource type="Texture2D" uid="uid://b0icd53vl3uoi" path="res://Assets/Backgrounds/DSCN0888.JPG" id="2_4lp62"]
+[ext_resource type="Texture2D" uid="uid://svnr4rs63gv7" path="res://Assets/Backgrounds/TitleArt5.jpg" id="2_4lp62"]
 [ext_resource type="Texture2D" uid="uid://ilo4jlrlcl7d" path="res://Assets/User Interface/Title Screen/New Game - Selected.png" id="2_udm2q"]
 [ext_resource type="Texture2D" uid="uid://b7178le2xr334" path="res://Assets/User Interface/Title Screen/Continue - Selected.png" id="3_mjet1"]
 [ext_resource type="Texture2D" uid="uid://dwh2kn6qpv0a6" path="res://Assets/User Interface/Title Screen/Settings - Selected.png" id="4_0126h"]
@@ -14,8 +14,8 @@ script = ExtResource("1_totuj")
 
 [node name="Dscn0888" type="Sprite2D" parent="." unique_id=74218527]
 modulate = Color(1, 1, 1, 0.65882355)
-position = Vector2(317.00003, 245)
-scale = Vector2(0.24729946, 0.24974279)
+position = Vector2(316, 240)
+scale = Vector2(0.6706563, 0.67777765)
 texture = ExtResource("2_4lp62")
 
 [node name="Button_Manager" type="Control" parent="." unique_id=1417227626]
