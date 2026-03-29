@@ -1,9 +1,10 @@
 [background arg="#000000ff" fade="0.0"]
+[style]
 audio "res://Assets/Audio/freesound_community-human-impact-on-ground-6982.mp3"
 [wait time="1.5"]
-join ??? center
+join Main center
 ???: Oh that look's like it was a nasty tumble.
-???: Are you all right their old chap?
+VN_Characters/???: Are you all right their old chap?
 audio music "res://Assets/Audio/Oudn-02.ogg" [fade="0.3" volume="-1.3" loop="true"]
 [background arg="res://Assets/Backgrounds/Starlight_Forest.JPG" fade="1.0"]
 In my vision I see a woman...or I think there a woman, woman shapped with a...moon for a head.
