@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b3efyeca6qa3n"
+path="res://.godot/imported/Hitting the Ground.mp3-47be68077acf52678d38dec327338d71.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sound Effects/Hitting the Ground.mp3"
+dest_files=["res://.godot/imported/Hitting the Ground.mp3-47be68077acf52678d38dec327338d71.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

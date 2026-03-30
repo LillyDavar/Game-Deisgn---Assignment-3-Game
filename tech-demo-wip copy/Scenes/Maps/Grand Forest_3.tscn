@@ -315,7 +315,7 @@ rotation = 0.25132805
 scale = Vector2(0.78922915, 0.7148194)
 
 [node name="Player" parent="." unique_id=474665016 instance=ExtResource("3_4eq7u")]
-position = Vector2(1396, -1732)
+position = Vector2(1393, -1749)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=492012891]
 position_smoothing_enabled = true

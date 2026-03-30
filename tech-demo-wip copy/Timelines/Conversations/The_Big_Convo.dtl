@@ -1,3 +1,5 @@
+As I walk through the gate I am met with another indivdiual. There body seemingly shifting constantly.
+They up from the patch of grass they had been observing.
 ???: ...oh? You made it here sooner than we thought you would.
 ???: Personally I was betting on you being here in another 30 minutes...
 - Who are you?
@@ -17,8 +19,8 @@ Last time you dreamt something similar you got lost a third the way through...
 		The bed? Figures...it's always something small with you huh?
 		You got to remember your limits...but again we do not judge.
 		Even then that is not important to the now. What matters now is you want to wake up, and you are almost able to.
-		Behind me one of these tents has a bed that will wake you up. All you need to do is lay down in it.
-		You can figure out which one is which on your own I am sure.
+		Behind me is a bed. You just have to slide into it and you'll wake up.
+		That should be something you can do I am sure.
 		- Thank you
 			Oh? leaving so soon? I am not surprised.
 			Before you go wondering off again, let me tell you a few things.
@@ -33,3 +35,22 @@ So let's see how you treated them...
 {Starlight_Outcome}, {Red_Outcome}.
 and {Steve_Outcome}...
 if {Red_Outcome} == "You left out Starlights apoloagy which left Red in a rage.":
+	if :
+		You treated them quite poorly if I were to say so myself.
+		I would dare to say you made things worst for them as a whole.
+		I got to say if [i]this[/i] is how you treat the aborations around you...
+		Maybe you deserve your lot in life.
+		But as I have said. We do not judge here.
+		You may leave now. As I put yourself into the bed and you'll wake up.
+		Oh and when you wake up...please look into a new fridge the one you have is absolutly disgusting.
+		Goodbye {MC}.
+		[end_timeline]
+elif {Red_Outcome} == "You told Red the truth, they can move past the distrust that they felt towards Starlight.":
+	if {Steve_Outcome} == "":
+		You treated those around you with a facit of kindness.
+		Despite knowing that none of this is real you took the time to listen to them, to [i]care[/i] for them.
+		It's...I am a little surprised, but in a good way.
+		Maybe you are not the disgusting monster you view yourself as {MC}.
+		You may leave now. As I said the bed will take you out of the dream.
+		Take care of yourself {MC}
+		[end_timeline]

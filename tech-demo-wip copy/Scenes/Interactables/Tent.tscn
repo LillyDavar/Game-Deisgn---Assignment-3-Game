@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://dqyv6ujt54wfj"]
+
+[ext_resource type="Script" uid="uid://ks53ge7bqs3a" path="res://scripts/Gate.gd" id="1_0r2wq"]
+[ext_resource type="Texture2D" uid="uid://hup1i20v22o6" path="res://Assets/Sprites/Tiles/Gate.png" id="2_m50ji"]
+[ext_resource type="PackedScene" uid="uid://bu5gdw4yam8di" path="res://Scenes/interactable.tscn" id="3_61jca"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qqdhv"]
+atlas = ExtResource("2_m50ji")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dcx4d"]
+atlas = ExtResource("2_m50ji")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bsxtl"]
+atlas = ExtResource("2_m50ji")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3sqi0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qqdhv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dcx4d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bsxtl")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_plytk"]
+size = Vector2(188.5, 64)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8pjge"]
+size = Vector2(200, 80)
+
+[node name="StaticBody2D" type="StaticBody2D" unique_id=1820677552]
+collision_layer = 260
+script = ExtResource("1_0r2wq")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="." unique_id=1920017818]
+texture_filter = 1
+position = Vector2(48, 8.000001)
+scale = Vector2(5.879292, 1.9354837)
+sprite_frames = SubResource("SpriteFrames_3sqi0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1183147460]
+position = Vector2(46.75, 8)
+shape = SubResource("RectangleShape2D_plytk")
+
+[node name="interactable" parent="." unique_id=402383156 instance=ExtResource("3_61jca")]
+interact_name = "Inspect Bed"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="interactable" unique_id=45434665]
+position = Vector2(48, 8)
+shape = SubResource("RectangleShape2D_8pjge")

@@ -1,4 +1,5 @@
 if {Lever_1} == false:
+	if {Hat2} == false:
 	Its a gate...its locked
 	Through it you can see the gate you got to go through...
 	It appears to also be locked.
@@ -22,3 +23,5 @@ if {Lever_1} == true:
 			do SceneManager.change_scene("res://Scenes/Maps/Grand_Forest_2.tscn")
 		- No
 			[end_timeline]
+		if {Hat2} == false:
+		[end_timeline]

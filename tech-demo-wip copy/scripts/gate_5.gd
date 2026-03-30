@@ -2,12 +2,10 @@ extends StaticBody2D
 # The bed code, used in the begining of the game.
 @onready var interactable: Area2D = $interactable
 @onready var sprite_2d: Sprite2D
-@onready var _animated_sprite = $AnimatedSprite2D
 
 func _ready() -> void:
-	_animated_sprite.play("default")
 	interactable.interact = _on_interact
 	
 func _on_interact():
-	Dialogic.start("res://Timelines/Conversations/Starlight Conversations.dtl")
+	Dialogic.start("res://Timelines/Interactions/Gate_5.dtl")
 	# NOTE FOR SELF, see if we can make all the interactables link to one time line, or at least get them grouped like that. That might be fun

@@ -3,7 +3,6 @@ Do you want to go back through?
 - Yes
 	if {RAKE} == true:
 		do SceneManager.change_scene("res://Scenes/Maps/Grand_Forest_2.tscn")
-		jump Red_Convo_1/
 	else:
 		I don't have the rake yet.
 		I should find the rake first.

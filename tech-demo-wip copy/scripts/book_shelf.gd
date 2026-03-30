@@ -7,5 +7,5 @@ func _ready() -> void:
 	interactable.interact = _on_interact
 	
 func _on_interact():
-	Dialogic.start("res://Scenes/Interactables/BookShelf.tscn")
+	Dialogic.start("res://Timelines/Interactions/Bookshelf.dtl")
 	# NOTE FOR SELF, see if we can make all the interactables link to one time line, or at least get them grouped like that. That might be fun

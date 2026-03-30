@@ -3,6 +3,7 @@ Steve: Did you find it?
 	Steve: You search the area while I search the soul.
 	[end_timeline]
 if {Hat2} == true:
+	label Hat found!
 	- Yes
 		Steve: You shouldn't have bothered.
 		- I thought you wanted your hat.

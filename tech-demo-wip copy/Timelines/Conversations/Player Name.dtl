@@ -13,6 +13,7 @@ Is this right?
 	set {Hat} = false
 	set {Lever_1} = false
 	set {RED_Name} = false
+	set {Ending} = false
 	set {getRake} = false
 	set {StarlightRake} = false
 	jump timeline/

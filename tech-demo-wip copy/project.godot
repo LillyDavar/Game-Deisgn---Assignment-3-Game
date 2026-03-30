@@ -24,14 +24,14 @@ GameState="*uid://s1owip6jcqyk"
 [dialogic]
 
 directories/dch_directory={
-"???": "res://VN_Characters/???.dch",
+"???": "res://Assets/VN_Characters/???.dch",
 "Lost_Tree ": "res://Timelines/Conversations/Lost_Tree .dch",
 "Main": "res://Assets/Audio/Sound Effects/Main.dch",
-"Not_Important": "res://VN_Characters/Not_Important.dch",
-"Red": "res://VN_Characters/Red.dch",
-"Red?": "res://VN_Characters/Red?.dch",
-"Steve": "res://VN_Characters/Steve.dch",
-"starlight": "res://VN_Characters/starlight.dch"
+"Not_Important": "res://Assets/VN_Characters/Not_Important.dch",
+"Red": "res://Assets/VN_Characters/Red.dch",
+"Red?": "res://Assets/VN_Characters/Red?.dch",
+"Steve": "res://Assets/VN_Characters/Steve.dch",
+"starlight": "res://Assets/VN_Characters/starlight.dch"
 }
 directories/dtl_directory={
 "Bookshelf": "res://Timelines/Interactions/Bookshelf.dtl",
@@ -43,6 +43,7 @@ directories/dtl_directory={
 "Gate_2": "res://Timelines/Interactions/Gate_2.dtl",
 "Gate_3": "res://Timelines/Interactions/Gate_3.dtl",
 "Gate_4": "res://Timelines/Interactions/Gate_4.dtl",
+"Gate_5": "res://Timelines/Interactions/Gate_5.dtl",
 "Hat": "res://Timelines/Interactions/Hat.dtl",
 "Hyme_1": "res://Timelines/Conversations/Hyme_1.dtl",
 "Interacts": "res://Timelines/Interactions/Interacts.dtl",
@@ -70,6 +71,7 @@ layout/style_list=["res://Assets/Audio/Sound Effects/New_File.tres", "res://Asse
 layout/default_style="res://Assets/Audio/Sound Effects/New_File.tres"
 variables={
 "Bad_Ending": "",
+"Ending": "",
 "F_GENDER": "",
 "Good_Ending": "",
 "Hat": "",

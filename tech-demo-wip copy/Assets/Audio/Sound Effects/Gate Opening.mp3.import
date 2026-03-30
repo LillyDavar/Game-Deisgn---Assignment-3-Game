@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d0apwrt674u81"
+path="res://.godot/imported/Gate Opening.mp3-ee81eabff450c4285625a37e7be33653.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sound Effects/Gate Opening.mp3"
+dest_files=["res://.godot/imported/Gate Opening.mp3-ee81eabff450c4285625a37e7be33653.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,6 +1,5 @@
 do SceneManager.change_scene("res://TAK TAK TAK.tscn")
 join Steve center
-if {Hat2} == "":
 Steve: Okay I'll m...
 Steve: Wait, who are you?
 {MC}: I'm {MC}
@@ -48,6 +47,7 @@ Even though I'm see through, people are always asking me to move.
 		Steve: Yes, come back with my hat and I will get you out of here.
 		Steve: Bye.
 		[end_timeline]
+		do SceneManager.change_scene("res://Scenes/Maps/Bridge_2.tscn")
 	- Because you need to help me.
 		Steve: Rude!
 		Steve: Rude!\
@@ -55,10 +55,11 @@ Even though I'm see through, people are always asking me to move.
 		Rude!\
 		\
 		Rude!
-		Steve: Always just expecting things to change for us aren't we {CM}!
+		Steve: Always just expecting things to change for us aren't we {MC}!
 		Steve: Typical {MC}
 		Steve: Find me an offering or live out the rest of your days here!
 		[end_timeline]
+		do SceneManager.change_scene("res://Scenes/Maps/Bridge_2.tscn")
 	- It seems like you want it.
 		Steve: .....
 		Steve: Okay.
@@ -83,16 +84,22 @@ Even though I'm see through, people are always asking me to move.
 	Steve: It made it easier to exist.
 	Steve: I don't suppose you've seen it?
 	- Yes.
-		Steve: Well you don't have it with you...
-		Steve: Lets make a deal.
-		Steve: If you go back and get it, I'll help you get out of here.
-		- Sure.
-			Steve: Then I shall see you when you return.
-			[end_timeline]
-		- Fuck that.
-			Steve: Then be off with you!
-			Steve: Find me my hat or live out the rest of your days here!
-			[end_timeline]
+		if {Hat2} == true:
+			Steve: You have? Do you have it?
+			- I do
+				Steve: You do?
+				jump Steve_convo_2/Hat found!
+		if {Hat2} == false:
+			Steve: Well you don't have it with you...
+			Steve: Lets make a deal.
+			Steve: If you go back and get it, I'll help you get out of here.
+			- Sure.
+				Steve: Then I shall see you when you return.
+				[end_timeline]
+			- Fuck that.
+				Steve: Then be off with you!
+				Steve: Find me my hat or live out the rest of your days here!
+				[end_timeline]
 	- No.
 		Steve: Then I'll tell you what, if you find my Hat and bring it back to me, I'll get you out of here.
 		- Sure.
@@ -101,38 +108,52 @@ Even though I'm see through, people are always asking me to move.
 		- Fuck that!
 			Steve: Then be off with you!
 			Steve: Find me my hat or live out the rest of your days here!
-			[end_timeline]
+			- No
+				Steve: ...What do you mean no?
+				jump Refusal
+			- Fine then!
+				Steve: Good!
+				[end_timeline]
 - MOVE!
 	Steve: Sorry...
-	{MC}: Can you just take me across
-	Steve: ...
-	Steve: I could, ya.
-	Steve: But I'm not going to
-	{MC}: What will it take to get me out of here?
-	Steve: Well
-	Steve: There is one thing.
-	Steve: Usually, people are mean to me.
-	Steve: Present company included.
-	Steve: The only thing that makes me feel better is my hat.
-	Steve: I lost it.
-	Steve: One of the eyeless scum must have taken it.
-	Steve: If you look around and find my hat, I'll get you out of here.
-	- Sure
-		Steve: Then I shall see you when you return.
-		[end_timeline]
-	- Fuck that!
-		Steve: Then be off with you!
-		Steve: Find me my hat or live out the rest of your days here!
-		set {Steve_Hat} = true
-		[end_timeline]
+	- Can you take me across?
+		Steve: ...
+		Steve: I could, ya.
+		Steve: But I'm not going to
+		{MC}: What will it take to get me out of here?
+		Steve: Well
+		Steve: There is one thing.
+		Steve: Usually, people are mean to me.
+		Steve: Present company included.
+		Steve: The only thing that makes me feel better is my hat.
+		Steve: I lost it.
+		Steve: One of the eyeless scum must have taken it.
+		Steve: If you look around and find my hat, I'll get you out of here.
+		- Sure
+			Steve: Then I shall see you when you return.
+			[end_timeline]
+		- I will not look for YOUR hat
+			label Refusal
+			Steve: ...of course you won't
+			Why did I think you would be different...always tearing me down.
+			I-I'll help you get across if you will leave me alone than.
+			- Deal
+				Steve: Alright then...hop on my back.
+				I climb onto the Things back and he starts walking.
+				It was quite the whole time.
+				do SceneManager.change_scene("res://Scenes/Maps/final_area.tscn")
+			- always?
+				Steve: You are always like this. Never caring about what makes [i]me[/i] comfortable.
+				Steve: look do you want across or not?
+				- Of course I do.
+					Steve: Than hop on I'll make this quick. Don't want to inconvinence you...
+					Steve: I crawl onto the things back and he begins to march off.
+					set {Steve_Outcome} = "You yelled and belittled Steve, he just wanted his hat back."
+					do SceneManager.change_scene("res://Scenes/Maps/final_area.tscn")
+			set {Steve_Hat} = true
+			[end_timeline]
 label 1
-if {Steve_Hat} == true:
-	oh your back...
-	did you find my hat?
-	- No
-	if {Hat2} == true:
-		- Yes I did
-			jump Hat found
-		label Hat found
-		<Empty Text Event>
+jump Hat found
+label Hat found
+<Empty Text Event>
 do SceneManager.change_scene("res://Scenes/Maps/final_area.tscn")

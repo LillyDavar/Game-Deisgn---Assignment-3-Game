@@ -9,5 +9,5 @@ func _ready() -> void:
 	interactable.interact = _on_interact
 	
 func _on_interact():
-	Dialogic.start("res://Timelines/Conversations/Starlight Conversations.dtl")
+	Dialogic.start("res://Timelines/Conversations/Red_Convo_1.dtl")
 	# NOTE FOR SELF, see if we can make all the interactables link to one time line, or at least get them grouped like that. That might be fun
