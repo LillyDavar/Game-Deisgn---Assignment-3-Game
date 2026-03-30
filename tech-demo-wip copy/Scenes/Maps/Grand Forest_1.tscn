@@ -1,6 +1,5 @@
 [gd_scene format=4 uid="uid://b8noj4qjetenq"]
 
-[ext_resource type="Texture2D" uid="uid://ckbw5xk7j5fch" path="res://Assets/Temp sprites/Objects/Wood Bridge.png" id="1_30uue"]
 [ext_resource type="Texture2D" uid="uid://dkp8d7cda07ll" path="res://Assets/Sprites/Tiles/Tile map forest.png" id="1_wnbc8"]
 [ext_resource type="PackedScene" uid="uid://bsgcr7gixw0ry" path="res://Scenes/player.tscn" id="2_gii1w"]
 [ext_resource type="Texture2D" uid="uid://cxmvkbg2bbui8" path="res://Assets/Sprites/Tiles/Forest_trees.png" id="2_oopne"]
@@ -11,7 +10,6 @@
 [ext_resource type="PackedScene" uid="uid://bult6twp1sh0e" path="res://Scenes/Interactables/Starlight.tscn" id="8_umxqy"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_78fxr"]
-texture = ExtResource("1_30uue")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 1:0/0 = 0
@@ -57,7 +55,6 @@ physics_layer_0/collision_mask = 3
 sources/1 = SubResource("TileSetAtlasSource_oopne")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_umxqy"]
-texture = ExtResource("1_30uue")
 0:0/0 = 0
 0:0/0/terrain_set = 0
 1:0/0 = 0

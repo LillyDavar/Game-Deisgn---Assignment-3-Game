@@ -1,5 +1,5 @@
 [background arg="res://Assets/Backgrounds/FOREST_GATE.png" fade="0.0"]
-join  left
+join Red left
 Red: Ah! You have returned!
 Red: Did you find my rake?
 Red: DO you have my family heirloom rake????
@@ -8,7 +8,9 @@ Red: DO you have my family heirloom rake????
 	Red: Come back when you found my rake.
 - Yes I do
 	Red: YOU DO!!!
+	join Red (reaching) left [animation="Instant In"]
 	Red: GIVE ME!
+	join Red (Rake) left
 	Red: oh my family heirloom rake, I'll never let you out of my sight again.
 	- Starlight said she was sorry | [if {StarlightRake} == true]
 		Red: ...Sorry?

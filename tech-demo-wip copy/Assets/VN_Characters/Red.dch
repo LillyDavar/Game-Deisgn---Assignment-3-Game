@@ -25,6 +25,24 @@
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
+},
+"Rake": {
+"export_overrides": {
+"image": "\"res://Assets/Sprites/Character Sprites/red_rake-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"reaching": {
+"export_overrides": {
+"image": "\"res://Assets/Sprites/Character Sprites/Red_3.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": "res://addons/dialogic/Modules/HighlightPortrait/simple_highlight_portrait.tscn"
 }
 },
 &"scale": 1.0

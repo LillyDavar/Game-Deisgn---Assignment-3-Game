@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://rr1q44kncql5" path="res://Assets/User Interface/Title Screen/Credits - Selected.png" id="5_4lp62"]
 [ext_resource type="AudioStream" uid="uid://ejmlk2owy1y0" path="res://Assets/Audio/01 - The Dream Starts.mp3" id="6_mjet1"]
 [ext_resource type="FontFile" uid="uid://ckogoootmvtu7" path="res://Assets/Fonts/BMSPA___.TTF" id="7_0126h"]
+[ext_resource type="Texture2D" uid="uid://chekguroehl10" path="res://Assets/Fonts/title tilt.png" id="9_0vewo"]
 
 [node name="MainMenu" type="Node2D" unique_id=535256384]
 script = ExtResource("1_totuj")
@@ -69,34 +70,27 @@ stream = ExtResource("6_mjet1")
 volume_db = -37.734
 autoplay = true
 
-[node name="TEMP TITLE" type="Label" parent="." unique_id=1832702887]
-offset_left = 161.0
-offset_top = 37.0
-offset_right = 505.0
-offset_bottom = 73.0
+[node name="Label" type="Label" parent="." unique_id=2013258437]
+offset_left = 184.0
+offset_top = 144.0
+offset_right = 462.0
+offset_bottom = 167.0
 theme_override_colors/font_color = Color(0.28627452, 0.50980395, 1, 1)
 theme_override_fonts/font = ExtResource("7_0126h")
-theme_override_font_sizes/font_size = 36
-text = "LUCID DREAMS"
-horizontal_alignment = 1
+theme_override_font_sizes/font_size = 10
+text = "Note: Many temp assets are still in use"
 
-[node name="Label" type="Label" parent="TEMP TITLE" unique_id=1201648275]
-layout_mode = 0
-offset_left = 99.0
-offset_top = 67.0
-offset_right = 243.0
-offset_bottom = 90.0
+[node name="Label2" type="Label" parent="." unique_id=1201648275]
+offset_left = 248.0
+offset_top = 120.0
+offset_right = 392.0
+offset_bottom = 143.0
 theme_override_colors/font_color = Color(0.28627452, 0.50980395, 1, 1)
 theme_override_fonts/font = ExtResource("7_0126h")
 text = "Version - 1.10"
 horizontal_alignment = 1
 
-[node name="Label" type="Label" parent="." unique_id=2013258437]
-offset_left = 191.0
-offset_top = 126.0
-offset_right = 469.0
-offset_bottom = 149.0
-theme_override_colors/font_color = Color(0.28627452, 0.50980395, 1, 1)
-theme_override_fonts/font = ExtResource("7_0126h")
-theme_override_font_sizes/font_size = 10
-text = "Note: Many temp assets are still in use"
+[node name="TitleTilt" type="Sprite2D" parent="." unique_id=1920302513]
+texture_filter = 1
+position = Vector2(319, 72)
+texture = ExtResource("9_0vewo")

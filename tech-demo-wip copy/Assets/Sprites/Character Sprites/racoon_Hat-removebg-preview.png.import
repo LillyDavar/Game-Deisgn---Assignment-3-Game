@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bncefc7wn33j1"
-path="res://.godot/imported/Minnatsuki_Base_Charset.png-0f923345b35c2fd54156d35db244f0dd.ctex"
+uid="uid://glus6dcepoqs"
+path="res://.godot/imported/racoon_Hat-removebg-preview.png-e693d1c0a36464e68f89ff765cb31769.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Temp sprites/Character's/Player/Minnatsuki_Base_Charset.png"
-dest_files=["res://.godot/imported/Minnatsuki_Base_Charset.png-0f923345b35c2fd54156d35db244f0dd.ctex"]
+source_file="res://Assets/Sprites/Character Sprites/racoon_Hat-removebg-preview.png"
+dest_files=["res://.godot/imported/racoon_Hat-removebg-preview.png-e693d1c0a36464e68f89ff765cb31769.ctex"]
 
 [params]
 

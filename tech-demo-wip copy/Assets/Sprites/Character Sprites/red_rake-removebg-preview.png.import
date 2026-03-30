@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvc8i8voxjbdd"
-path="res://.godot/imported/Wood_Bridge.png-3ff73b029f8e218d10a4114bb9d65fe0.ctex"
+uid="uid://bfdjkmlqd04xx"
+path="res://.godot/imported/red_rake-removebg-preview.png-b793e369e9b4f33a98806461338815c1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Temp sprites/Objects/Wood_Bridge.png"
-dest_files=["res://.godot/imported/Wood_Bridge.png-3ff73b029f8e218d10a4114bb9d65fe0.ctex"]
+source_file="res://Assets/Sprites/Character Sprites/red_rake-removebg-preview.png"
+dest_files=["res://.godot/imported/red_rake-removebg-preview.png-b793e369e9b4f33a98806461338815c1.ctex"]
 
 [params]
 

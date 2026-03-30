@@ -1,21 +1,23 @@
+[background arg="#000000ff" fade="0.4"]
 do SceneManager.change_scene("res://TAK TAK TAK.tscn")
 join Steve center
-Steve: Okay I'll m...
-Steve: Wait, who are you?
-{MC}: I'm {MC}
+???: Okay I'll m...
+???: Wait, who are you?
+- I'm {MC}
+Steve: Hi {MC} I'm Steve.
 Steve: Well I guess you'll want me to move out of the way then.
-Even though I'm see through, people are always asking me to move.
+Steve: Even though I'm see through, people are always asking me to move.
 - You don't have to move.
 	Steve: People say that sometimes...
 	Steve: They always expect it.
-	{MC}: I won't.
+	- I wont.
 	Steve: ...you already are.
-	{MC}: Well, I was hoping...
+	- Well I was hoping...
 	Steve: Right......
 	{MC}: ......
-	{MC}: You know how to get across?
+	- You know how to get across?
 	Steve: Ya
-	{MC}: Can you take me?
+	- Can you take me?
 	Steve: .....
 	Steve: I don't like what happens when I do.
 	{MC}: What?

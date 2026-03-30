@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://beywjk3ot7n0o" path="res://Scenes/Controled_scenes/PauseMenu.tscn" id="3_i6v3k"]
 [ext_resource type="PackedScene" uid="uid://bkto22cjqbhrf" path="res://Scenes/Interactables/Steve.tscn" id="4_w2ea6"]
 [ext_resource type="PackedScene" uid="uid://cyajspruhcgh6" path="res://Scenes/Interactables/Gate_4.tscn" id="5_y1kbo"]
-[ext_resource type="AudioStream" uid="uid://co5gy7akt2un0" path="res://Assets/Temp sprites/41 - Shining Under the Step, Above The Slope.mp3" id="7_uiqj2"]
+[ext_resource type="AudioStream" uid="uid://co5gy7akt2un0" path="res://Assets/Audio/41 - Shining Under the Step, Above The Slope.mp3" id="7_uiqj2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ac4df"]
 texture = ExtResource("1_1agv2")

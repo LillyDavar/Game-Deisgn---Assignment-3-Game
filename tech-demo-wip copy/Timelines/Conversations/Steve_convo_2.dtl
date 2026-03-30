@@ -1,3 +1,6 @@
+[background arg="#000000ff" fade="0.0"]
+do SceneManager.change_scene("res://TAK TAK TAK.tscn")
+join Steve (Default) left
 Steve: Did you find it?
 - No
 	Steve: You search the area while I search the soul.
@@ -10,6 +13,7 @@ if {Hat2} == true:
 		Steve: I do...
 		Steve: I want people to look at the Hat and not me.
 		- Does it help?
+		join Steve (hat) left
 		Steve: Enough...
 		Steve: .....
 		- Is it time to go yet?
