@@ -36,6 +36,7 @@ directories/dch_directory={
 directories/dtl_directory={
 "Bookshelf": "res://Timelines/Interactions/Bookshelf.dtl",
 "Bridge_Opening": "res://Timelines/Interactions/Bridge_Opening.dtl",
+"Endings": "res://Timelines/Conversations/Endings.dtl",
 "First convo": "res://Timelines/Conversations/First convo.dtl",
 "Fridge": "res://Timelines/Interactions/Fridge.dtl",
 "Gate": "res://Timelines/Interactions/Gate.dtl",
@@ -67,7 +68,9 @@ layout/style_directory={
 layout/style_list=["res://Assets/Audio/Sound Effects/New_File.tres", "res://Assets/Fonts/Whisper.tres"]
 layout/default_style="res://Assets/Audio/Sound Effects/New_File.tres"
 variables={
+"Bad_Ending": "",
 "F_GENDER": "",
+"Good_Ending": "",
 "Hat": "",
 "Hat2": "",
 "Lever_1": "",
@@ -80,6 +83,7 @@ variables={
 "Red_Outcome": "",
 "StarlightRake": "",
 "Starlight_Outcome": "",
+"Steve_Hat": "",
 "Steve_Outcome": "",
 "getRake": "",
 "point": ""

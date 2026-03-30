@@ -2,7 +2,7 @@ if {getRake} == true:
 	jump rake?
 label rake?
 [background arg="res://Assets/Backgrounds/Starlight_Forest.JPG" fade="0.0"]
-join  left
+join  center
 starlight: Oh. Welcome back my friend. I did not think I would see you again so soon....
 starlight: ....or ever really.
 starlight: What can I help you with?
@@ -31,5 +31,4 @@ else:
 	- Thought I would say hi
 		starlight: Oh? Well Hi!
 		starlight: It was nice to see you again my Friend.
-		set {Starlight_Outcome} = "You treated Starlight with kindness, she appriciated that more than you can realize."
 		[end_timeline]

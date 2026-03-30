@@ -1,40 +1,138 @@
-???: ...
-Hello there...
-Steve: I am Steve...it's nice to meet you
-Steve: What do you want?
-- I'm trying to get through the Bridges
-	Steve: Oh...so you need help to get through...
-	Steve: I-I think I might not be able to help you
-	Steve: I'm really sorry please don't be mad with me.
-	- Are you ok?
-		Steve: YES...no....I-I don't know anymore.
-		Steve: I'm really sorry. Maybe there is someone else who can help you? Someone not as horrible and stupid as me...
-		Steve: I can't do anything right can I? Can't even help people get across the bridges like I am suppose to.
-		Steve: Can't even keep my [color=red]Hat[/color]...
-		Steve: I am a stupid creature in a stupid hole who is going to [i]DIE ALONE![/i]
-		- I'm sure thats not true...
-			[style name="Yelling"]
-			Steve: [b]Oh WHaT DO [i]YOU[/i] KnOW?[/b]
-			[style]
-			Steve: ...oh...I'm sorry I didn't mean to yell.
-			Steve: I am really sorry.
-			Steve: I ju-I just have been in a runt recently.
-			[style name="Whisper"]
-			Steve: Not enough sleep I think...
-			[style]
-			Steve: I don't know anymore. Again I am really sorry I'm just wasting your time at this point.
-			- You're not wasting my time
-				Steve: Are you sure?
-				- Why would I lie about that?
-					Steve: ...
-					Steve: That is a good point...
-					Steve: ...You just met me you don't have a reason to pretend to listen to my problems.
-					- Sometimes we all need to let things out, I get it.
-						Steve: ...You do? Of course you do! It's written on your face.
-						Steve: Again I'm sorry for rambling, thank you for listening, I-I think I needed to let that out of my system.
-						Steve: ...I am sorry again, what did you need again?
-						- I am trying to get through the bridge here
-			- It's fine
-			- So can you help me over or not?
-		- ...So is that a no?
-	- So is that a no?
+do SceneManager.change_scene("res://TAK TAK TAK.tscn")
+join Steve center
+if {Hat2} == "":
+Steve: Okay I'll m...
+Steve: Wait, who are you?
+{MC}: I'm {MC}
+Steve: Well I guess you'll want me to move out of the way then.
+Even though I'm see through, people are always asking me to move.
+- You don't have to move.
+	Steve: People say that sometimes...
+	Steve: They always expect it.
+	{MC}: I won't.
+	Steve: ...you already are.
+	{MC}: Well, I was hoping...
+	Steve: Right......
+	{MC}: ......
+	{MC}: You know how to get across?
+	Steve: Ya
+	{MC}: Can you take me?
+	Steve: .....
+	Steve: I don't like what happens when I do.
+	{MC}: What?
+	Steve: People see me more...
+	Steve: ...or don't see me.
+	{MC}: Okay fine.
+	{MC}: I won't look.
+	Why?
+	- It doesn't matter either way.
+		Steve: ...no.
+		Steve: That's not it.
+		Steve: You're still doing it.
+		{MC}: then what do you want?
+		Steve: ...I can't do it like this.
+		{MC}: Like what?
+		Steve: Like I am now.
+		{MC}: Then change something.
+		Steve: I had something...
+		Steve: Once.
+		{MC}: What?
+		{MC}: A hat, a very special hat.
+		Steve: It made things....
+		Steve: Quieter
+		{MC}: Where is it?
+		Steve: Somewhere on The Bridges.
+		Steve: I stopped looking.
+		Steve: But if you were to find it, I could probably get you out of here.
+		{MC}: If I find your hat you'll get me out of here?
+		Steve: Yes, come back with my hat and I will get you out of here.
+		Steve: Bye.
+		[end_timeline]
+	- Because you need to help me.
+		Steve: Rude!
+		Steve: Rude!\
+		\
+		Rude!\
+		\
+		Rude!
+		Steve: Always just expecting things to change for us aren't we {CM}!
+		Steve: Typical {MC}
+		Steve: Find me an offering or live out the rest of your days here!
+		[end_timeline]
+	- It seems like you want it.
+		Steve: .....
+		Steve: Okay.
+		Steve: Well, I'll get you out of here.
+		Steve: You have been very kind to me.
+		Steve: The first since...
+		Steve: ...the other two were around.
+		Steve: ...
+		Steve: Well lets go then...
+		Steve: Stay behind me.
+		Steve: ...but not too close.
+		do SceneManager.change_scene("res://Scenes/Maps/final_area.tscn")
+		[end_timeline]
+- Do you know how I can get across right now?
+	Steve: Ya.
+	{MC}: Then take me.
+	Steve: ...I can't
+	{MC}: Why?
+	Steve: Something is missing.
+	{MC}: What's missing?
+	Steve: The best hat I've ever seen, thats what.
+	Steve: It made it easier to exist.
+	Steve: I don't suppose you've seen it?
+	- Yes.
+		Steve: Well you don't have it with you...
+		Steve: Lets make a deal.
+		Steve: If you go back and get it, I'll help you get out of here.
+		- Sure.
+			Steve: Then I shall see you when you return.
+			[end_timeline]
+		- Fuck that.
+			Steve: Then be off with you!
+			Steve: Find me my hat or live out the rest of your days here!
+			[end_timeline]
+	- No.
+		Steve: Then I'll tell you what, if you find my Hat and bring it back to me, I'll get you out of here.
+		- Sure.
+			Steve: Then I shall see you when you return.
+			[end_timeline]
+		- Fuck that!
+			Steve: Then be off with you!
+			Steve: Find me my hat or live out the rest of your days here!
+			[end_timeline]
+- MOVE!
+	Steve: Sorry...
+	{MC}: Can you just take me across
+	Steve: ...
+	Steve: I could, ya.
+	Steve: But I'm not going to
+	{MC}: What will it take to get me out of here?
+	Steve: Well
+	Steve: There is one thing.
+	Steve: Usually, people are mean to me.
+	Steve: Present company included.
+	Steve: The only thing that makes me feel better is my hat.
+	Steve: I lost it.
+	Steve: One of the eyeless scum must have taken it.
+	Steve: If you look around and find my hat, I'll get you out of here.
+	- Sure
+		Steve: Then I shall see you when you return.
+		[end_timeline]
+	- Fuck that!
+		Steve: Then be off with you!
+		Steve: Find me my hat or live out the rest of your days here!
+		set {Steve_Hat} = true
+		[end_timeline]
+label 1
+if {Steve_Hat} == true:
+	oh your back...
+	did you find my hat?
+	- No
+	if {Hat2} == true:
+		- Yes I did
+			jump Hat found
+		label Hat found
+		<Empty Text Event>
+do SceneManager.change_scene("res://Scenes/Maps/final_area.tscn")

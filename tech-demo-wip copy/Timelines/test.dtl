@@ -2,3 +2,8 @@ set {point} = "0"
 - increase point
 	set {point} = "Liar"
 {point}
+goodbye
+set {Hat2} = true
+[end_timeline]
+RETURN CONVERSATION AND STUFF
+if {Hat2} == false:

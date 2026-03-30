@@ -21,4 +21,15 @@ Last time you dreamt something similar you got lost a third the way through...
 		You can figure out which one is which on your own I am sure.
 		- Thank you
 			Oh? leaving so soon? I am not surprised.
+			Before you go wondering off again, let me tell you a few things.
 		- Why are you here exactly?
+			oh come on, you are dreaming yes? Surely you can figure it out by now.
+			I am you and you are me...you know this song and dance I'm sure.
+			Same as the rest of ths "cast" you have conjured up.
+label judge
+You have a fun way of treating those around you don't you?
+Starlight, Red, Steve...all little aspects your brain has conjured up for one night only...or however dreams work.
+So let's see how you treated them...
+{Starlight_Outcome}, {Red_Outcome}.
+and {Steve_Outcome}...
+if {Red_Outcome} == "You left out Starlights apoloagy which left Red in a rage.":

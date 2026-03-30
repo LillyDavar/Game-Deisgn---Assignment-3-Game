@@ -13,3 +13,4 @@ Main: I really must be stupid, forgetting to make my own bed. What is wrong with
 Main: ...I am talking to myself again, stupid.
 Main: I should make my bed first before I allow myself to eat.
 do SceneManager.change_scene("res://Scenes/Maps/game_screen.tscn")
+do SceneManager.change_scene("")

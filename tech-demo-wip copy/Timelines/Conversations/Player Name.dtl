@@ -8,6 +8,8 @@ Is this right?
 	Very well
 	Sweet dreams...{MC}
 	set {RAKE} = false
+	set {Good_Ending} = false
+	set {Bad_Ending} = false
 	set {Hat} = false
 	set {Lever_1} = false
 	set {RED_Name} = false
