@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://bvhp8sbjrmjmj"]
+
+[ext_resource type="Script" uid="uid://beotivjwskv12" path="res://scripts/steve_2.gd" id="1_suhyd"]
+[ext_resource type="Texture2D" uid="uid://cxhinmky46u5l" path="res://Assets/Sprites/Character Sprites/Steve_Hatless.png" id="2_27c72"]
+[ext_resource type="PackedScene" uid="uid://bu5gdw4yam8di" path="res://Scenes/interactable.tscn" id="3_gfhoj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_emv70"]
+atlas = ExtResource("2_27c72")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1llrq"]
+atlas = ExtResource("2_27c72")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8tvjd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_emv70")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1llrq")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_plytk"]
+size = Vector2(528, 596.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8pjge"]
+size = Vector2(600, 696)
+
+[node name="Steve_2" type="StaticBody2D" unique_id=1820677552]
+collision_layer = 260
+script = ExtResource("1_suhyd")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=845670229]
+texture_filter = 1
+position = Vector2(7.6293945e-06, 8.000015)
+scale = Vector2(16.500002, 20.5)
+sprite_frames = SubResource("SpriteFrames_8tvjd")
+frame_progress = 0.32055807
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1183147460]
+position = Vector2(0, -18.25)
+shape = SubResource("RectangleShape2D_plytk")
+
+[node name="interactable" parent="." unique_id=402383156 instance=ExtResource("3_gfhoj")]
+interact_name = "Inspect Bed"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="interactable" unique_id=45434665]
+position = Vector2(-4, 4)
+shape = SubResource("RectangleShape2D_8pjge")

@@ -1,0 +1,23 @@
+Steve: Did you find it?
+- No
+	Steve: You search the area while I search the soul.
+	[end_timeline]
+if {Hat2} == true:
+	- Yes
+		Steve: You shouldn't have bothered.
+		- I thought you wanted your hat.
+		Steve: I do...
+		Steve: I want people to look at the Hat and not me.
+		- Does it help?
+		Steve: Enough...
+		Steve: .....
+		- Is it time to go yet?
+		Steve: Ya...
+		Steve: Before I lose it again...
+		Steve: This Hat does look really good on me eh?
+		- It does.
+		Steve: Hold on tight!
+		jump 1
+		[end_timeline]
+label 1
+do SceneManager.change_scene("res://Scenes/Maps/final_area.tscn")

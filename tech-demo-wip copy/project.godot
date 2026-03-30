@@ -54,6 +54,7 @@ directories/dtl_directory={
 "Red_Convo_1": "res://Timelines/Conversations/Red_Convo_1.dtl",
 "Starlight Conversations": "res://Timelines/Conversations/Starlight Conversations.dtl",
 "Steve": "res://Timelines/Conversations/Steve.dtl",
+"Steve_convo_2": "res://Timelines/Conversations/Steve_convo_2.dtl",
 "The_Big_Convo": "res://Timelines/Conversations/The_Big_Convo.dtl",
 "door interact": "res://Timelines/Interactions/door interact.dtl",
 "lever-1": "res://Timelines/Interactions/lever-1.dtl",
