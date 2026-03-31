@@ -49,5 +49,7 @@ func pressed():
 		get_tree().change_scene_to_file("res://Scenes/Controled_scenes/Controls.tscn") 
 	elif button.name == "Continue":
 		get_tree().change_scene_to_file("res://Scenes/Maps/game_screen.tscn")
-	elif button.Name == "Quit":
-		get_tree().quit()
+	elif button.name == "Settings":
+		get_tree().change_scene_to_file("res://Scenes/settings.tscn")
+	elif button.name == "Credits":
+		get_tree().change_scene_to_file("res://Scenes/Controled_scenes/credits.tscn")

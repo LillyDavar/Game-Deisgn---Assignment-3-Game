@@ -1,5 +1,4 @@
 if {Lever_1} == false:
-	if {Hat2} == false:
 	Its a gate...its locked
 	Through it you can see the gate you got to go through...
 	It appears to also be locked.
@@ -10,6 +9,7 @@ if {Lever_1} == true:
 	The gate "feels" open...there is no other way to describe it.
 	open the gate?
 	- Yes
+		audio "res://Assets/Audio/Sound Effects/Gate Opening.mp3" [volume="-0.9" bus=""]
 		You push the gate open and walk through
 		do SceneManager.change_scene("res://TAK TAK TAK.tscn")
 		jump Red Conversation /

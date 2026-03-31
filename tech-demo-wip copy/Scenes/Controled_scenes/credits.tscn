@@ -1,0 +1,111 @@
+[gd_scene format=3 uid="uid://cak1x77qg8vo4"]
+
+[ext_resource type="Texture2D" uid="uid://0el2i8lo0i77" path="res://Assets/User Interface/Pause Menu/Selectables Frame.png" id="1_0fnai"]
+[ext_resource type="Script" uid="uid://cn50wpriut0v1" path="res://scripts/credits.gd" id="1_yaxvt"]
+[ext_resource type="FontFile" uid="uid://ckogoootmvtu7" path="res://Assets/Fonts/BMSPA___.TTF" id="2_bnhpj"]
+[ext_resource type="Script" uid="uid://bstrt0xyjbkyt" path="res://scripts/h_box_container.gd" id="3_eqbw5"]
+[ext_resource type="Texture2D" uid="uid://vwuykrprg33p" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - Yes [Unselected].png" id="4_yaxvt"]
+[ext_resource type="Texture2D" uid="uid://b1vjorjnd52xx" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - Yes [Selected].png" id="5_a4r73"]
+[ext_resource type="Texture2D" uid="uid://bo14o3pylwth7" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - No [Unselected].png" id="6_lchyl"]
+[ext_resource type="Texture2D" uid="uid://bytwmpwryaugq" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - No [Selected].png" id="7_q03nb"]
+
+[node name="Credits" type="Node2D" unique_id=356125607]
+script = ExtResource("1_yaxvt")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1107776561]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(16.7658, 15.009757)
+color = Color(0.045312412, 0.04531242, 0.04531242, 1)
+
+[node name="SelectablesFrame" type="Sprite2D" parent="." unique_id=426425049]
+position = Vector2(320, 240)
+scale = Vector2(2.6666667, 2.2325583)
+texture = ExtResource("1_0fnai")
+
+[node name="Label" type="Label" parent="." unique_id=947665838]
+offset_left = 256.0
+offset_top = 32.0
+offset_right = 343.0
+offset_bottom = 55.0
+theme_override_fonts/font = ExtResource("2_bnhpj")
+text = "Credits:"
+
+[node name="Label2" type="Label" parent="." unique_id=224987838]
+offset_left = 216.0
+offset_top = 64.0
+offset_right = 419.0
+offset_bottom = 217.0
+theme_override_fonts/font = ExtResource("2_bnhpj")
+text = "Lead Coder: Lilly
+Lead Artist: Puc 
+Lead Narrative: Lilly
+Lead Music Director: Puc
+Lead SFX Director: Erik
+Lead UI Designer: Takumu"
+
+[node name="Label4" type="Label" parent="." unique_id=2009342964]
+offset_left = 344.0
+offset_top = 240.0
+offset_right = 742.0
+offset_bottom = 445.0
+theme_override_fonts/font = ExtResource("2_bnhpj")
+theme_override_font_sizes/font_size = 13
+text = "Forest Tiles: Puc
+Dark Bridge Tiles: Puc
+Final Area Tiles: Puc
+Bedroom Tiles: Lilly
+VN Sprites: Lilly
+Font created By: Bitmap Mania
+Music created by: Puc and 
+Kikiyama
+"
+
+[node name="Label3" type="Label" parent="." unique_id=1874508633]
+offset_left = 16.0
+offset_top = 248.0
+offset_right = 407.0
+offset_bottom = 375.0
+theme_override_fonts/font = ExtResource("2_bnhpj")
+theme_override_font_sizes/font_size = 13
+text = "Play-Testers: Takumu, Callum, Erik
+Proof readers: Erik, Takumu
+Dialogue Polisher: Erik
+Spriters: Lilly and Puc
+
+"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1252684416]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 248.0
+offset_top = 430.0
+offset_right = 364.0
+offset_bottom = 444.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+script = ExtResource("3_eqbw5")
+
+[node name="Yes" type="TextureButton" parent="HBoxContainer" unique_id=1674055226]
+layout_mode = 2
+texture_normal = ExtResource("4_yaxvt")
+texture_hover = ExtResource("5_a4r73")
+texture_focused = ExtResource("5_a4r73")
+
+[node name="no" type="TextureButton" parent="HBoxContainer" unique_id=261433764]
+layout_mode = 2
+texture_normal = ExtResource("6_lchyl")
+texture_hover = ExtResource("7_q03nb")
+texture_focused = ExtResource("7_q03nb")
+
+[node name="Label5" type="Label" parent="." unique_id=737357622]
+offset_left = 232.0
+offset_top = 392.0
+offset_right = 422.0
+offset_bottom = 415.0
+theme_override_fonts/font = ExtResource("2_bnhpj")
+text = "Return to Menu?"
+
+[connection signal="pressed" from="HBoxContainer/Yes" to="." method="_on_yes_pressed"]

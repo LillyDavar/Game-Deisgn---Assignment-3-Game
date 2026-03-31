@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://bvhp8sbjrmjmj" path="res://Scenes/Interactables/Steve_2.tscn" id="5_o4u0e"]
 [ext_resource type="PackedScene" uid="uid://bsgcr7gixw0ry" path="res://Scenes/player.tscn" id="6_n6373"]
 [ext_resource type="PackedScene" uid="uid://beywjk3ot7n0o" path="res://Scenes/Controled_scenes/PauseMenu.tscn" id="7_732j6"]
-[ext_resource type="AudioStream" uid="uid://co5gy7akt2un0" path="res://Assets/Audio/41 - Shining Under the Step, Above The Slope.mp3" id="8_qx4j4"]
+[ext_resource type="AudioStream" uid="uid://ba1101k65of1o" path="res://Assets/Audio/Always questioning.mp3" id="8_o4u0e"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ac4df"]
 texture = ExtResource("1_o4u0e")
@@ -110,6 +110,7 @@ position = Vector2(-30, -159)
 position = Vector2(-2, 5)
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=846443641]
-stream = ExtResource("8_qx4j4")
-volume_db = -8.968
+stream = ExtResource("8_o4u0e")
+volume_db = -3.0
 autoplay = true
+parameters/looping = true

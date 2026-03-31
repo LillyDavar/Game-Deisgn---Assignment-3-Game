@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ce8loc66d0g71"
+path="res://.godot/imported/Always questioning.mp3-8484abe93487d318e78999d2acc92330.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Music/Always questioning.mp3"
+dest_files=["res://.godot/imported/Always questioning.mp3-8484abe93487d318e78999d2acc92330.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

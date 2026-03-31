@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Lucid Dreams  Assignment 3 (Copy)"
+config/name="Group E - Lucid Dreams"
 run/main_scene="uid://y3d5ybskxxay"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"

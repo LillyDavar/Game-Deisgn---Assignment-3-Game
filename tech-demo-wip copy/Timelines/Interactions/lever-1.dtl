@@ -1,8 +1,11 @@
 It's a lever...in the middle of the woods...
 flip it?
 - Yes
+	audio "res://Assets/Audio/Pushing an Object.mp3" [volume="0.4" bus=""]
+	It takes a few tries to get the lever to flip...but eventually it gives.
 	set {Lever_1} = true
 	You flip the lever. Faintly you hear something click.
+	Flipping the lever must have done something.
 	[end_timeline]
 - No
 	You back away from it.

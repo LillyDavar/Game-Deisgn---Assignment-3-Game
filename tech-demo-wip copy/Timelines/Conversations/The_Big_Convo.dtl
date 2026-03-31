@@ -3,6 +3,7 @@
 As I walk through the gate I am met with another indivdiual. There body seemingly shifting constantly.
 They up from the patch of grass they had been observing.
 join "Big thing" left [animation="Fade In Down"]
+audio music "res://Assets/Audio/01 - The Dream Starts.mp3" [volume="-4.4" loop="true"]
 ???: ...oh? You made it here sooner than we thought you would.
 ???: Personally I was betting on you being here in another 30 minutes...
 - Who are you?

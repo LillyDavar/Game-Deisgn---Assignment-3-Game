@@ -1,6 +1,7 @@
 do SceneManager.change_scene("res://TAK TAK TAK.tscn")
 [background arg="#000000ff" fade="0.0"]
 [wait time="1.0"]
+audio "res://Assets/Audio/Sound Effects/Hitting the Ground.mp3" [volume="2.3000000000000003"]
 if {Bad_Ending} == true:
 	You awake with a start.
 	It takes a moment but your racing heart start's to calm down...It was just a dream.
@@ -8,7 +9,6 @@ if {Bad_Ending} == true:
 	Main: I must have been [i]way[/i] more tired than I thought...haha
 	Looking at the wall you see the time.
 	Main: 11\:43 huh? oh it is late.
-	audio -
 	Main: ...still hungry I guess.
 	Well its way to late now.
 	[style name="Whisper"]
@@ -17,8 +17,8 @@ if {Bad_Ending} == true:
 	The chicken was in fact still good. After eating dinner I slide into bed. Belly full I slide into a peaceful sleep.
 	Main: I am just going to go to bed. I can make myself something in the morning.
 	I crawl into my dirty digusting pathetic bed.
-	audio -
 	After a period of time I am able to fall into a restless sleep.
+	audio music - [volume="-18.0" loop="true"]
 	[background arg="res://Assets/Backgrounds/bedlay2.jpg" fade="2.0" wait="true"]
 	Bad Ending.
 	do SceneManager.change_scene("res://Scenes/Main Menu.tscn")
@@ -33,5 +33,6 @@ if {Good_Ending} == true:
 	The chicken was in fact still good. With my belly full I slide back into my bed. After a few minutes I'm able to fall into a peaceful sleep.
 	The chicken was in fact still good. With my belly full I slide back into my bed. After a few minutes I'm able to fall into a peaceful sleep.
 	[background arg="res://Assets/Backgrounds/good-end.png" fade="2.0" wait="true"]
+	audio music "res://Assets/Audio/Music/02 - Yume Nikki.mp3" [volume="-3.0" bus="" loop="true"]
 	Good Ending\:
 	do SceneManager.change_scene("res://Scenes/Main Menu.tscn")

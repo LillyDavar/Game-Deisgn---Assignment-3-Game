@@ -15,6 +15,7 @@ if {Ending} == true:
 		[background arg="#000000ff" fade="1.0"]
 		You lay in the bed and close your eyes.
 		...
+		audio "res://Assets/Audio/Sound Effects/Falling.mp3"
 		do SceneManager.change_scene("res://TAK TAK TAK.tscn")
 		jump Endings/
 	- In a minute

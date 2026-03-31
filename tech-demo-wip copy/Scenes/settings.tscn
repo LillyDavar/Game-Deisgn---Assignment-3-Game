@@ -1,0 +1,105 @@
+[gd_scene format=3 uid="uid://ds477fwyftbdd"]
+
+[ext_resource type="Script" uid="uid://6reb3s36greg" path="res://scripts/settings.gd" id="1_1c72s"]
+[ext_resource type="Texture2D" uid="uid://cscuu64agv2fr" path="res://Assets/User Interface/Settings/Volume Peg.png" id="1_lhmql"]
+[ext_resource type="Texture2D" uid="uid://0el2i8lo0i77" path="res://Assets/User Interface/Pause Menu/Selectables Frame.png" id="2_aaqfp"]
+[ext_resource type="FontFile" uid="uid://ckogoootmvtu7" path="res://Assets/Fonts/BMSPA___.TTF" id="3_j2dne"]
+[ext_resource type="Texture2D" uid="uid://m18e4kev7s87" path="res://Assets/User Interface/Settings/File 1 - Selected.png" id="4_rgw85"]
+[ext_resource type="Texture2D" uid="uid://b0i25txbhqt64" path="res://Assets/User Interface/Settings/x0.5 Text Speed - Unselected.png" id="5_l7vst"]
+[ext_resource type="Texture2D" uid="uid://cpn1rieun0otw" path="res://Assets/User Interface/Settings/x1.0 Text Speed - Unselected.png" id="6_35cvv"]
+[ext_resource type="Texture2D" uid="uid://b72lfng6b6y2a" path="res://Assets/User Interface/Settings/x1.5 Text Speed - Unselected.png" id="7_ieo4m"]
+[ext_resource type="Texture2D" uid="uid://gawcm6h5048" path="res://Assets/User Interface/Settings/x2.0 Text Speed - Unselected.png" id="8_1c72s"]
+[ext_resource type="Script" uid="uid://bstrt0xyjbkyt" path="res://scripts/h_box_container.gd" id="9_ieo4m"]
+[ext_resource type="Texture2D" uid="uid://bo14o3pylwth7" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - No [Unselected].png" id="9_vmqi3"]
+[ext_resource type="Texture2D" uid="uid://bytwmpwryaugq" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - No [Selected].png" id="10_35cvv"]
+[ext_resource type="Texture2D" uid="uid://vwuykrprg33p" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - Yes [Unselected].png" id="10_g8dc3"]
+[ext_resource type="Texture2D" uid="uid://b1vjorjnd52xx" path="res://Assets/User Interface/Inventory Menu/Equip Confirmation - Yes [Selected].png" id="12_ieo4m"]
+
+[node name="Settings" type="Node2D" unique_id=1183696991]
+script = ExtResource("1_1c72s")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=749912021]
+offset_right = 640.0
+offset_bottom = 496.0
+color = Color(0.04236231, 0.011874698, 0.23398092, 1)
+
+[node name="VolumePeg" type="Sprite2D" parent="." unique_id=1124784596]
+position = Vector2(32, 248)
+scale = Vector2(12.8, 33.066666)
+texture = ExtResource("1_lhmql")
+
+[node name="VolumePeg2" type="Sprite2D" parent="." unique_id=885781052]
+position = Vector2(608, 248)
+scale = Vector2(12.8, 33.066666)
+texture = ExtResource("1_lhmql")
+
+[node name="SelectablesFrame" type="Sprite2D" parent="." unique_id=441540554]
+position = Vector2(320, 226.25)
+scale = Vector2(2.1333334, 1.5418605)
+texture = ExtResource("2_aaqfp")
+
+[node name="Label" type="Label" parent="." unique_id=421500192]
+offset_left = 80.0
+offset_top = 80.0
+offset_right = 560.0
+offset_bottom = 207.0
+theme_override_fonts/font = ExtResource("3_j2dne")
+text = "Hi! Coder Lilly here! 
+Unfortantly I could not figure out how to code in a functionally settings system into the game. However Tak made all the assets for one so here are a selection of the assets. Please appriciate the work he did."
+autowrap_mode = 2
+
+[node name="File1Selected" type="Sprite2D" parent="." unique_id=2031271031]
+position = Vector2(318.5, 32.500008)
+scale = Vector2(0.6469849, 0.52499986)
+texture = ExtResource("4_rgw85")
+
+[node name="X0_5TextSpeedUnselected" type="Sprite2D" parent="." unique_id=833128514]
+position = Vector2(32, 24)
+texture = ExtResource("5_l7vst")
+
+[node name="X1_0TextSpeedUnselected" type="Sprite2D" parent="." unique_id=22295835]
+position = Vector2(608, 24)
+texture = ExtResource("6_35cvv")
+
+[node name="X1_5TextSpeedUnselected" type="Sprite2D" parent="." unique_id=525768920]
+position = Vector2(32, 472)
+texture = ExtResource("7_ieo4m")
+
+[node name="X2_0TextSpeedUnselected" type="Sprite2D" parent="." unique_id=1793412864]
+position = Vector2(608, 472)
+texture = ExtResource("8_1c72s")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1696072491]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 280.0
+offset_top = 448.0
+offset_right = 360.0
+offset_bottom = 462.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+script = ExtResource("9_ieo4m")
+
+[node name="Yes" type="TextureButton" parent="HBoxContainer" unique_id=1864243506]
+layout_mode = 2
+texture_normal = ExtResource("10_g8dc3")
+texture_hover = ExtResource("12_ieo4m")
+texture_focused = ExtResource("12_ieo4m")
+
+[node name="no" type="TextureButton" parent="HBoxContainer" unique_id=234351737]
+layout_mode = 2
+texture_normal = ExtResource("9_vmqi3")
+texture_hover = ExtResource("10_35cvv")
+texture_focused = ExtResource("10_35cvv")
+
+[node name="Label5" type="Label" parent="." unique_id=1932017531]
+offset_left = 232.0
+offset_top = 416.0
+offset_right = 422.0
+offset_bottom = 439.0
+theme_override_fonts/font = ExtResource("3_j2dne")
+text = "Return to Menu?"
+
+[connection signal="pressed" from="HBoxContainer/Yes" to="." method="_on_yes_pressed"]
