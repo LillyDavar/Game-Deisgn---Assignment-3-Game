@@ -25,6 +25,7 @@ GameState="*uid://s1owip6jcqyk"
 
 directories/dch_directory={
 "???": "res://Assets/VN_Characters/???.dch",
+"Big thing": "res://Timelines/Interactions/Big thing.dch",
 "Lost_Tree ": "res://Timelines/Conversations/Lost_Tree .dch",
 "Main": "res://Assets/Audio/Sound Effects/Main.dch",
 "Not_Important": "res://Assets/VN_Characters/Not_Important.dch",
@@ -57,6 +58,7 @@ directories/dtl_directory={
 "Steve": "res://Timelines/Conversations/Steve.dtl",
 "Steve_convo_2": "res://Timelines/Conversations/Steve_convo_2.dtl",
 "The_Big_Convo": "res://Timelines/Conversations/The_Big_Convo.dtl",
+"Tree": "res://Timelines/Interactions/Tree.dtl",
 "door interact": "res://Timelines/Interactions/door interact.dtl",
 "lever-1": "res://Timelines/Interactions/lever-1.dtl",
 "test": "res://Timelines/test.dtl",
@@ -88,8 +90,10 @@ variables={
 "Starlight_Outcome": "",
 "Steve_Hat": "",
 "Steve_Outcome": "",
+"Tree": "",
 "getRake": "",
-"point": ""
+"point": "",
+"thing": ""
 }
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"

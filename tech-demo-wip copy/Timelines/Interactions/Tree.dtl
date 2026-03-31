@@ -1,0 +1,10 @@
+if {Tree} == false:
+	It's a tree.
+	It looks like there might be something in it..but you can't tell.
+	It's probably nothing important.
+	[end_timeline]
+if {Tree} == true:
+	It's a tree.
+	Guess the rake was in it the whole time.
+	weird...
+	[end_timeline]

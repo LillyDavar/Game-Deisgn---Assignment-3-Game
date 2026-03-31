@@ -50,6 +50,7 @@ Red: What do you say?
 - sure.
 	Red: Purrrfect!
 	Red: Come back with my shiny rake and I will open the gate for you.
+	set {Tree} = true
 	set {getRake} = true
 	do SceneManager.change_scene("res://Scenes/Maps/Grand_Forest_2.tscn")
 	[end_timeline]

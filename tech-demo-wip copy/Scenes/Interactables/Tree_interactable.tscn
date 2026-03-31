@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://bqapcqyqreuq5"]
+
+[ext_resource type="Script" uid="uid://c4qjywcp535ae" path="res://scripts/tree_interactable.gd" id="1_ul3hi"]
+[ext_resource type="Texture2D" uid="uid://n02rjth8rjjx" path="res://Assets/Sprites/Tiles/Trees.png" id="2_ul3hi"]
+[ext_resource type="PackedScene" uid="uid://bu5gdw4yam8di" path="res://Scenes/interactable.tscn" id="3_cnbt1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_plytk"]
+size = Vector2(120, 71)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8pjge"]
+size = Vector2(136, 128)
+
+[node name="tree" type="StaticBody2D" unique_id=1820677552]
+collision_layer = 260
+script = ExtResource("1_ul3hi")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=344393918]
+texture_filter = 1
+position = Vector2(7.5, 10)
+scale = Vector2(2.3125002, 1.9354837)
+texture = ExtResource("2_ul3hi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1183147460]
+position = Vector2(7, 32.5)
+shape = SubResource("RectangleShape2D_plytk")
+
+[node name="interactable" parent="." unique_id=402383156 instance=ExtResource("3_cnbt1")]
+interact_name = "Inspect Bed"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="interactable" unique_id=45434665]
+position = Vector2(7, 10)
+shape = SubResource("RectangleShape2D_8pjge")

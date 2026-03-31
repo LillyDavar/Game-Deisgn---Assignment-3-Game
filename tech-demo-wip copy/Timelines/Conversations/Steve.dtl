@@ -142,13 +142,16 @@ Steve: Even though I'm see through, people are always asking me to move.
 			- Deal
 				Steve: Alright then...hop on my back.
 				I climb onto the Things back and he starts walking.
+				[background arg="#000000ff" fade="0.8"]
 				It was quite the whole time.
+				set {Steve_Outcome} = "You yelled and belittled Steve, he just wanted his hat back."
 				do SceneManager.change_scene("res://Scenes/Maps/final_area.tscn")
 			- always?
 				Steve: You are always like this. Never caring about what makes [i]me[/i] comfortable.
 				Steve: look do you want across or not?
 				- Of course I do.
 					Steve: Than hop on I'll make this quick. Don't want to inconvinence you...
+					[background arg="#000000ff" fade="0.8"]
 					Steve: I crawl onto the things back and he begins to march off.
 					set {Steve_Outcome} = "You yelled and belittled Steve, he just wanted his hat back."
 					do SceneManager.change_scene("res://Scenes/Maps/final_area.tscn")
@@ -157,5 +160,4 @@ Steve: Even though I'm see through, people are always asking me to move.
 label 1
 jump Hat found
 label Hat found
-<Empty Text Event>
 do SceneManager.change_scene("res://Scenes/Maps/final_area.tscn")

@@ -4,5 +4,7 @@ Proceed?
 	[background fade="0.5"]
 	do SceneManager.change_scene("res://TAK TAK TAK.tscn")
 	I open the gate and walk through.
+	[background arg="#000000ff" fade="0.5"]
 	jump The_Big_Convo/
 - no
+	[end_timeline]

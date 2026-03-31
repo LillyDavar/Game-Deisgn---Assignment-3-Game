@@ -11,6 +11,7 @@ Is this right?
 	set {Good_Ending} = false
 	set {Bad_Ending} = false
 	set {Hat} = false
+	set {Tree} = false
 	set {Lever_1} = false
 	set {RED_Name} = false
 	set {Ending} = false

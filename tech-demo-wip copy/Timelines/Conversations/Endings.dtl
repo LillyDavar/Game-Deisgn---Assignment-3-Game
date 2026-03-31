@@ -19,7 +19,7 @@ if {Bad_Ending} == true:
 	I crawl into my dirty digusting pathetic bed.
 	audio -
 	After a period of time I am able to fall into a restless sleep.
-	[background fade="0.0"]
+	[background arg="res://Assets/Backgrounds/bedlay2.jpg" fade="2.0" wait="true"]
 	Bad Ending.
 	do SceneManager.change_scene("res://Scenes/Main Menu.tscn")
 if {Good_Ending} == true:
@@ -32,5 +32,6 @@ if {Good_Ending} == true:
 	Main: It's all good, I'm going to go to bed soon anyway so I can let it go this one time.
 	The chicken was in fact still good. With my belly full I slide back into my bed. After a few minutes I'm able to fall into a peaceful sleep.
 	The chicken was in fact still good. With my belly full I slide back into my bed. After a few minutes I'm able to fall into a peaceful sleep.
+	[background arg="res://Assets/Backgrounds/good-end.png" fade="2.0" wait="true"]
 	Good Ending\:
 	do SceneManager.change_scene("res://Scenes/Main Menu.tscn")

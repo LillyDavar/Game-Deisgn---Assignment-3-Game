@@ -1,7 +1,8 @@
-[background fade="1.3"]
+[background arg="#000000ff" fade="1.3"]
+[background arg="res://Assets/Backgrounds/DSCN0888.JPG" fade="0.6"]
 As I walk through the gate I am met with another indivdiual. There body seemingly shifting constantly.
 They up from the patch of grass they had been observing.
-[background arg="res://Assets/Backgrounds/DSCN0888.JPG" fade="0.6"]
+join "Big thing" left [animation="Fade In Down"]
 ???: ...oh? You made it here sooner than we thought you would.
 ???: Personally I was betting on you being here in another 30 minutes...
 - Who are you?
@@ -17,6 +18,9 @@ Last time you dreamt something similar you got lost a third the way through...
 	Oh yes. This style is a reocurring dream of your's. Personally I think you read those dream books of ours to many times but hey, We don't judge here.
 	Let me guess? You had a shitty day at work and have let things slip again? What was it this time?
 	- I don't need to tell you
+		Oh you want to be snippy now?
+		Why am I not surprised...trying to push me away won't work you know?
+		On account of us being a part of [i]your[/i] dream world.
 	- It was the bed...
 		The bed? Figures...it's always something small with you huh?
 		You got to remember your limits...but again we do not judge.
@@ -37,22 +41,22 @@ So let's see how you treated them...
 {Starlight_Outcome}, {Red_Outcome}.
 and {Steve_Outcome}...
 if {Red_Outcome} == "You left out Starlights apoloagy which left Red in a rage.":
-	if :
-		You treated them quite poorly if I were to say so myself.
-		I would dare to say you made things worst for them as a whole.
-		I got to say if [i]this[/i] is how you treat the aborations around you...
-		Maybe you deserve your lot in life.
-		But as I have said. We do not judge here.
-		You may leave now. As I put yourself into the bed and you'll wake up.
-		Oh and when you wake up...please look into a new fridge the one you have is absolutly disgusting.
-		Goodbye {MC}.
-		[end_timeline]
+	You treated them quite poorly if I were to say so myself.
+	I would dare to say you made things worst for them as a whole.
+	I got to say if [i]this[/i] is how you treat the aborations around you...
+	Maybe you deserve your lot in life.
+	But as I have said. We do not judge here.
+	You may leave now. As I put yourself into the bed and you'll wake up.
+	Oh and when you wake up...please look into a new fridge the one you have is absolutly disgusting.
+	Goodbye {MC}.
+	set {Bad_Ending} = true
+	[end_timeline]
 elif {Red_Outcome} == "You told Red the truth, they can move past the distrust that they felt towards Starlight.":
-	if {Steve_Outcome} == "":
-		You treated those around you with a facit of kindness.
-		Despite knowing that none of this is real you took the time to listen to them, to [i]care[/i] for them.
-		It's...I am a little surprised, but in a good way.
-		Maybe you are not the disgusting monster you view yourself as {MC}.
-		You may leave now. As I said the bed will take you out of the dream.
-		Take care of yourself {MC}
-		[end_timeline]
+	You treated those around you with a facit of kindness.
+	Despite knowing that none of this is real you took the time to listen to them, to [i]care[/i] for them.
+	It's...I am a little surprised, but in a good way.
+	Maybe you are not the disgusting monster you view yourself as {MC}.
+	You may leave now. As I said the bed will take you out of the dream.
+	Take care of yourself {MC}
+	set {Good_Ending} = true
+	[end_timeline]

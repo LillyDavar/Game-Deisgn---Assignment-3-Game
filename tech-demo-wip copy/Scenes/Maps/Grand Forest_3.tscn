@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://bpiex7x8ihirc" path="res://Scenes/Interactables/Gate_3.tscn" id="6_0awl5"]
 [ext_resource type="PackedScene" uid="uid://c3x3543m05ofx" path="res://Scenes/Interactables/lever-1.tscn" id="7_a1oub"]
 [ext_resource type="PackedScene" uid="uid://bult6twp1sh0e" path="res://Scenes/Interactables/Starlight.tscn" id="8_3sq8s"]
+[ext_resource type="PackedScene" uid="uid://bqapcqyqreuq5" path="res://Scenes/Interactables/Tree_interactable.tscn" id="10_1r2cv"]
 [ext_resource type="PackedScene" uid="uid://bb3ebfstdpjev" path="res://Scenes/Interactables/Rake.tscn" id="10_srfwu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_78fxr"]
@@ -306,9 +307,12 @@ position = Vector2(2407, -1024.9999)
 rotation = -3.140954
 
 [node name="Rake" parent="." unique_id=2112268325 instance=ExtResource("10_srfwu")]
-position = Vector2(319, -1145)
+position = Vector2(325.00003, -1077)
 rotation = 0.25132805
 scale = Vector2(0.78922915, 0.7148194)
+
+[node name="Tree" parent="." unique_id=631453513 instance=ExtResource("10_1r2cv")]
+position = Vector2(232, -1138)
 
 [node name="Player" parent="." unique_id=474665016 instance=ExtResource("3_4eq7u")]
 position = Vector2(1393, -1749)
