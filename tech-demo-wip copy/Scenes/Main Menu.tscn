@@ -87,7 +87,7 @@ offset_right = 392.0
 offset_bottom = 143.0
 theme_override_colors/font_color = Color(0.28627452, 0.50980395, 1, 1)
 theme_override_fonts/font = ExtResource("7_0126h")
-text = "Version - 1.2.4"
+text = "Version - 1.2.5"
 horizontal_alignment = 1
 
 [node name="TitleTilt" type="Sprite2D" parent="." unique_id=1920302513]

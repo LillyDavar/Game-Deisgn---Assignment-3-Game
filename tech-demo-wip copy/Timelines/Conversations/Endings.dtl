@@ -18,7 +18,7 @@ if {Bad_Ending} == true:
 	Main: I am just going to go to bed. I can make myself something in the morning.
 	I crawl into my dirty digusting pathetic bed.
 	After a period of time I am able to fall into a restless sleep.
-	audio music - [volume="-18.0" loop="true"]
+	audio music "res://Assets/Audio/Music/Always questioning slowed.mp3" [volume="-18.0" loop="true"]
 	[background arg="res://Assets/Backgrounds/bedlay2.jpg" fade="2.0" wait="true"]
 	Bad Ending.
 	do SceneManager.change_scene("res://Scenes/Main Menu.tscn")

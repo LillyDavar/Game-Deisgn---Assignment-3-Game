@@ -51,6 +51,7 @@ if {Red_Outcome} == "You left out Starlights apoloagy which left Red in a rage."
 	Oh and when you wake up...please look into a new fridge the one you have is absolutly disgusting.
 	Goodbye {MC}.
 	set {Bad_Ending} = true
+	do SceneManager.change_scene("res://Final_area_3.tscn")
 	[end_timeline]
 elif {Red_Outcome} == "You told Red the truth, they can move past the distrust that they felt towards Starlight.":
 	You treated those around you with a facit of kindness.
@@ -60,4 +61,5 @@ elif {Red_Outcome} == "You told Red the truth, they can move past the distrust t
 	You may leave now. As I said the bed will take you out of the dream.
 	Take care of yourself {MC}
 	set {Good_Ending} = true
+	do SceneManager.change_scene("res://Final_area_3.tscn")
 	[end_timeline]

@@ -25,7 +25,7 @@ Steve: Even though I'm see through, people are always asking me to move.
 	Steve: ...or don't see me.
 	{MC}: Okay fine.
 	{MC}: I won't look.
-	Why?
+	Steve: Why?
 	- It doesn't matter either way.
 		Steve: ...no.
 		Steve: That's not it.
@@ -48,8 +48,8 @@ Steve: Even though I'm see through, people are always asking me to move.
 		{MC}: If I find your hat you'll get me out of here?
 		Steve: Yes, come back with my hat and I will get you out of here.
 		Steve: Bye.
-		[end_timeline]
 		do SceneManager.change_scene("res://Scenes/Maps/Bridge_2.tscn")
+		[end_timeline]
 	- Because you need to help me.
 		Steve: Rude!
 		Steve: Rude!\
@@ -60,8 +60,8 @@ Steve: Even though I'm see through, people are always asking me to move.
 		Steve: Always just expecting things to change for us aren't we {MC}!
 		Steve: Typical {MC}
 		Steve: Find me an offering or live out the rest of your days here!
-		[end_timeline]
 		do SceneManager.change_scene("res://Scenes/Maps/Bridge_2.tscn")
+		[end_timeline]
 	- It seems like you want it.
 		Steve: .....
 		Steve: Okay.
@@ -97,15 +97,18 @@ Steve: Even though I'm see through, people are always asking me to move.
 			Steve: If you go back and get it, I'll help you get out of here.
 			- Sure.
 				Steve: Then I shall see you when you return.
+				do SceneManager.change_scene("res://Scenes/Maps/Bridge_2.tscn")
 				[end_timeline]
 			- Fuck that.
 				Steve: Then be off with you!
 				Steve: Find me my hat or live out the rest of your days here!
+				do SceneManager.change_scene("res://Scenes/Maps/Bridge_2.tscn")
 				[end_timeline]
 	- No.
 		Steve: Then I'll tell you what, if you find my Hat and bring it back to me, I'll get you out of here.
 		- Sure.
 			Steve: Then I shall see you when you return.
+			do SceneManager.change_scene("res://Scenes/Maps/Bridge_2.tscn")
 			[end_timeline]
 		- Fuck that!
 			Steve: Then be off with you!
@@ -115,6 +118,7 @@ Steve: Even though I'm see through, people are always asking me to move.
 				jump Refusal
 			- Fine then!
 				Steve: Good!
+				do SceneManager.change_scene("res://Scenes/Maps/Bridge_2.tscn")
 				[end_timeline]
 - MOVE!
 	Steve: Sorry...
@@ -133,12 +137,13 @@ Steve: Even though I'm see through, people are always asking me to move.
 		Steve: If you look around and find my hat, I'll get you out of here.
 		- Sure
 			Steve: Then I shall see you when you return.
+			do SceneManager.change_scene("res://Scenes/Maps/Bridge_2.tscn")
 			[end_timeline]
 		- I will not look for YOUR hat
 			label Refusal
 			Steve: ...of course you won't
-			Why did I think you would be different...always tearing me down.
-			I-I'll help you get across if you will leave me alone than.
+			Steve: Why did I think you would be different...always tearing me down.
+			Steve: I-I'll help you get across if you will leave me alone than.
 			- Deal
 				Steve: Alright then...hop on my back.
 				I climb onto the Things back and he starts walking.
@@ -152,7 +157,7 @@ Steve: Even though I'm see through, people are always asking me to move.
 				- Of course I do.
 					Steve: Than hop on I'll make this quick. Don't want to inconvinence you...
 					[background arg="#000000ff" fade="0.8"]
-					Steve: I crawl onto the things back and he begins to march off.
+					I crawl onto the things back and he begins to march off.
 					set {Steve_Outcome} = "You yelled and belittled Steve, he just wanted his hat back."
 					do SceneManager.change_scene("res://Scenes/Maps/final_area.tscn")
 			set {Steve_Hat} = true

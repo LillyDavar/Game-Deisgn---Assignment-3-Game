@@ -305,6 +305,7 @@ parameters/looping = true
 [node name="StaticBody2D2" parent="." unique_id=1820677552 instance=ExtResource("7_a1oub")]
 position = Vector2(2407, -1024.9999)
 rotation = -3.140954
+scale = Vector2(0.4046634, 0.62189215)
 
 [node name="Rake" parent="." unique_id=2112268325 instance=ExtResource("10_srfwu")]
 position = Vector2(325.00003, -1077)
