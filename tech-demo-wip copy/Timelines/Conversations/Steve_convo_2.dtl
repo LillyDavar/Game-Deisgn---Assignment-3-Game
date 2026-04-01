@@ -4,6 +4,7 @@ join Steve (Default) left
 Steve: Did you find it?
 - No
 	Steve: You search the area while I search the soul.
+	do SceneManager.change_scene("res://Scenes/Maps/Bridge_2.tscn")
 	[end_timeline]
 if {Hat2} == true:
 	label Hat found!
