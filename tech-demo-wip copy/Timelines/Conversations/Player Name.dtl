@@ -10,6 +10,7 @@ Is this right?
 	set {RAKE} = false
 	set {Good_Ending} = false
 	set {Bad_Ending} = false
+	set {Hat2} = false
 	set {Hat} = false
 	set {Tree} = false
 	set {Lever_1} = false
